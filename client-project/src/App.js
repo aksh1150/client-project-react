@@ -2,8 +2,12 @@ import React, { Component } from "react";
 import "./App.css";
 import MenuBar from "./components/menubar/menubar";
 import Home from "./components/pages/home";
-import Second from "./components/pages/second";
-import Third from "./components/pages/third";
+import Hypnotherapy from "./components/pages/hypnotherapy";
+import EnergyHealing from "./components/pages/energyhealing";
+import BookSession from "./components/pages/booksession";
+import Resources from "./components/pages/resources";
+import AboutMe from "./components/pages/aboutme";
+import Faq from "./components/pages/faq";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 class App extends Component {
@@ -12,19 +16,15 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="container-fluid">
-          <h2 className="m-3 d-flex justify-content-center">
-            <b>This is React JS with API</b>
-          </h2>
-          <h5 className="m-3 d-flex justify-content-center">
-            New project routing pages
-          </h5>
-
           <MenuBar />
-
           <Switch>
             <Route path="/" component={Home} exact />
-            <Route path="/second" component={Second} />
-            <Route path="/third" component={Third} />
+            <Route path="/hypnotherapy" component={Hypnotherapy} />
+            <Route path="/energyhealing" component={EnergyHealing} />
+            <Route path="/faq" component={Faq} />
+            <Route path="/aboutme" component={AboutMe} />
+            <Route path="/resources" component={Resources} />
+            <Route path="/booksession" component={BookSession} />
           </Switch>
         </div>
       </BrowserRouter>

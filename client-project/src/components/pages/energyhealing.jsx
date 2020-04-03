@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-class Third extends Component {
+
+class EnergyHealing extends Component {
   state = {};
   render() {
     return (
-      <div className="container m-4 p-4">
+      <div className="container p-4">
         <h1>
           This is <i>Third</i> page
         </h1>
@@ -12,4 +13,4 @@ class Third extends Component {
   }
 }
 
-export default Third;
+export default EnergyHealing;

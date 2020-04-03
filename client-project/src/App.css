@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+:root {
+  --primary-color: #34c3eb;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.bg-primary-color {
+  background-color: var(--info);
+}
+.navbar-nav a {
+  color: #555555;
+}
+.navbar-nav a.active,
+.navbar-nav a:hover {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+@media only screen and (max-width: 800px) {
+  .bg-primary-color {
+    text-align: center;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .navbar-light .collapsed .navbar-toggler-icon {
+    background-image: url("./svg/menu.svg") !important;
   }
-  to {
-    transform: rotate(360deg);
+  .navbar-light .navbar-toggler-icon {
+    width: 25px;
+    background-image: url("./svg/close.svg") !important;
+  }
+  .navbar-light .navbar-toggler {
+    background-color: var(--info);
+    border-radius: 0px;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    padding-top: 30px;
+    border: none;
+  }
+  .box-shadow {
+    box-shadow: 5px 10px 18px #999999;
+  }
+  .navbar {
+    top: -15px;
+  }
+  .home {
+    margin-top: 20px;
+  }
+  .p-2 {
+    padding: 0.7rem !important;
   }
 }
