@@ -10,13 +10,17 @@ import AboutMe from "./components/pages/aboutme";
 import Faq from "./components/pages/faq";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
+import Logo from "./components/logo";
+
 class App extends Component {
   state = {};
   render() {
     return (
       <BrowserRouter>
-        <div className="container-fluid">
+        <div>
           <MenuBar />
+          <Logo />
+
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/hypnotherapy" component={Hypnotherapy} />

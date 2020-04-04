@@ -1,22 +1,94 @@
 :root {
-  --primary-color: #34c3eb;
+  --primary-color: #5bafb1;
+  --navbar-link-color: #9b867a;
+  --home-page-rgb: 91, 175, 177;
+  --hypno-page-rgb: 215, 223, 43;
+  --energy-page-rgb: 109, 209, 226;
+  --gradiant-color: rgba(255, 255, 255, 0.1);
 }
-
+p {
+  font-size: 17px;
+}
 .container-fluid {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
 .bg-primary-color {
-  background-color: var(--info);
+  background-color: var(--primary-color);
 }
 .navbar-nav a {
-  color: #555555;
+  color: var(--navbar-link-color);
 }
 .navbar-nav a.active,
 .navbar-nav a:hover {
-  color: #ffffff !important;
+  color: var(--white) !important;
   text-decoration: none;
 }
+.layerOne {
+  text-align: center;
+  color: var(--white);
+}
+.layerOne p {
+  padding: 0 20px;
+  margin-bottom: 0px;
+}
+.shadowbox p {
+  margin-bottom: 10px;
+}
+.shadowbox {
+  box-shadow: 2px 38px 14px -10px rgba(0, 0, 0, 0.55);
+  width: 320px;
+}
+.homeBoxClass {
+  background-color: rgba(var(--home-page-rgb), 0.8);
+  padding: 20px;
+}
+.hypnoBox {
+  background-color: rgba(var(--hypno-page-rgb), 0.8);
+}
+.hypnocol {
+  color: #043842;
+}
+.hypnoBox p {
+  margin-bottom: 2px;
+}
+.energyBox {
+  background-color: rgba(var(--energy-page-rgb), 0.8);
+  padding-bottom: 20px;
+}
+.homeLayerOne {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(var(--home-page-rgb), 1) 25%,
+      var(--gradiant-color)
+    ),
+    url("./images/homeBanner.jpg");
+  background-size: cover;
+  height: 430px;
+}
+
+.hypnoLayerOne {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(var(--hypno-page-rgb), 1) 15%,
+      var(--gradiant-color) 35%
+    ),
+    url("./images/hypnoBackground.jpg");
+  background-size: cover;
+  height: 1080px;
+}
+
+.energyLayerOne {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(var(--energy-page-rgb), 1) 15%,
+      var(--gradiant-color) 35%
+    ),
+    url("./images/energyBackground.jpg");
+  background-size: cover;
+  height: 1080px;
+}
+
 @media only screen and (max-width: 800px) {
   .bg-primary-color {
     text-align: center;
@@ -29,7 +101,7 @@
     background-image: url("./svg/close.svg") !important;
   }
   .navbar-light .navbar-toggler {
-    background-color: var(--info);
+    background-color: var(--primary-color);
     border-radius: 0px;
     position: absolute;
     right: 20px;

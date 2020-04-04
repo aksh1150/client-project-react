@@ -1,10 +1,47 @@
 import React, { Component } from "react";
+import ShadowBox from "../shadowBox";
+import LayerOne from "../layerone";
 class Hypnotherapy extends Component {
-  state = {};
   render() {
     return (
-      <div className="container p-4">
-        <h1>This is second page</h1>
+      <div className="container-fluid">
+        <LayerOne hypnoLayerOne>
+          <ShadowBox hypnoBox>
+            <h2>HOW CAN HYPNOTHERAPY HELP ME?</h2>
+            <p className="hypnocol">
+              "One of the biggest gifts you can give the word is a healed life."
+            </p>
+            <i className="hypnocol">- Christiane Northrup</i>
+            <div className="homeBoxClass p-4 mt-3">
+              Hypnotherapy can help with a myriad of conditions. Some of the
+              more common ones include:
+            </div>
+            <div className="mt-3 pb-4">
+              <p>Addictions</p>
+              <p>Anger Management</p>
+              <p>Anxiety</p>
+              <p>Asthma if triggered by stress</p>
+              <p>Confidence/Motivation/Self-Esteem</p>
+              <p>Depression</p>
+              <p>Eating Disorders</p>
+              <p>Eczema from stress and anxiety</p>
+              <p>Irritable Bowel Syndrome stress</p>
+              <p>Insomnia</p>
+              <p>Migraines</p>
+              <p>Obessive Compulsive Disorder</p>
+              <p>Pain Control</p>
+              <p>Panic Attacks</p>
+              <p>Phobias (fear of flying, spiders, etc.)</p>
+              <p>Psoriasis if caused through stress</p>
+              <p>Sexual Abuse</p>
+              <p>Sports/Work Performance and Enhancement</p>
+              <p>Stammering</p>
+              <p>Quit Smoking</p>
+              <p>Stress/Anxieties</p>
+              <p>Weight Loss</p>
+            </div>
+          </ShadowBox>
+        </LayerOne>
       </div>
     );
   }
