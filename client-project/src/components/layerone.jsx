@@ -16,7 +16,7 @@ const LayerOne = ({
         faqLaterOne ? "faqLayerOne" : ""
       } ${aboutLayerOne ? "aboutLayerOne" : ""} ${
         resourceLayerOne ? "resourceLayerOne" : ""
-      } col layerOne p-4 mt-4`}
+      } col layerOne mt-4`}
     >
       {children}
     </div>

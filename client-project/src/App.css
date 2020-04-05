@@ -4,11 +4,26 @@
   --home-page-rgb: 91, 175, 177;
   --hypno-page-rgb: 215, 223, 43;
   --energy-page-rgb: 109, 209, 226;
+  --faq-page-rgb: 199, 109, 175;
+  --about-page-rbg: 223, 231, 103;
   --gradiant-color: rgba(255, 255, 255, 0.1);
+
+  --energy-second-layer: #cac2be;
 }
 p {
   font-size: 17px;
 }
+h2 {
+  padding: 10px 10px 0px 10px;
+}
+h5 {
+  font-size: 18px !important;
+}
+.faqCol hr {
+  width: 200px;
+  background-color: rgba(var(--faq-page-rgb), 1);
+}
+
 .container-fluid {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -27,17 +42,26 @@ p {
 .layerOne {
   text-align: center;
   color: var(--white);
+  padding: 10px 40px 50px 40px !important;
 }
 .layerOne p {
   padding: 0 20px;
   margin-bottom: 0px;
+}
+.layerOne a {
+  color: #ffffff;
+}
+.homeSecondLayer p {
+  padding: 0 5px;
+}
+.faqCol p {
+  padding: 0 5px;
 }
 .shadowbox p {
   margin-bottom: 10px;
 }
 .shadowbox {
   box-shadow: 2px 38px 14px -10px rgba(0, 0, 0, 0.55);
-  width: 320px;
 }
 .homeBoxClass {
   background-color: rgba(var(--home-page-rgb), 0.8);
@@ -46,7 +70,8 @@ p {
 .hypnoBox {
   background-color: rgba(var(--hypno-page-rgb), 0.8);
 }
-.hypnocol {
+.hypnocol,
+.hypnocol a {
   color: #043842;
 }
 .hypnoBox p {
@@ -64,7 +89,6 @@ p {
     ),
     url("./images/homeBanner.jpg");
   background-size: cover;
-  height: 430px;
 }
 
 .hypnoLayerOne {
@@ -75,7 +99,6 @@ p {
     ),
     url("./images/hypnoBackground.jpg");
   background-size: cover;
-  height: 1080px;
 }
 
 .energyLayerOne {
@@ -86,9 +109,153 @@ p {
     ),
     url("./images/energyBackground.jpg");
   background-size: cover;
-  height: 1080px;
+}
+.faqLayerOne {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--faq-page-rgb), 1) 5%,
+    var(--gradiant-color) 27%
+  );
+}
+.aboutLayerOne {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(var(--about-page-rbg), 1) 10%,
+      var(--gradiant-color) 25%
+    ),
+    url("./images/oie_ciSnbNSZpeAC.png");
+  background-size: cover;
+  height: 780px;
+}
+.aboutContact {
+  background-image: linear-gradient(
+      to top,
+      rgba(var(--about-page-rbg), 0.7) 40%,
+      var(--gradiant-color) 95%
+    ),
+    url("./images/aboutBackground.png");
+  background-size: 110%;
+  background-repeat: no-repeat;
+  padding: 0px 30px;
+}
+.homeSecondLayer {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(var(--faq-page-rgb), 0.7) 100%,
+      var(--gradiant-color) 95%
+    ),
+    url("./images/homeRock.jpg");
+  background-size: 100%;
+}
+.faqtxtcol {
+  color: rgba(var(--faq-page-rgb), 1);
+}
+.layerOnes {
+  text-align: center;
+  padding: 0px 30px 50px 30px;
+}
+.layerOnes label {
+  font-size: 18px;
+  font-weight: 600;
+}
+.layerOnes .faqLink {
+  border: 1px solid rgba(var(--faq-page-rgb), 1);
 }
 
+.lm-btn {
+  width: 260px;
+  color: var(--white) !important;
+  border-radius: 0px !important;
+}
+.faqLayerOne {
+  padding-bottom: 20px !important;
+}
+.abotTxtCol {
+  color: #9da879;
+}
+.blackglass {
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 25px;
+  color: #ffffff;
+}
+.blackglass p {
+  margin-bottom: 0px;
+}
+.blackglass a {
+  color: var(--white);
+}
+.aboutForm {
+  text-align: center;
+}
+.learn-more {
+  padding: 20px 28px 0px 28px !important;
+}
+.homeThirdLayer {
+  background-color: rgba(var(--energy-page-rgb), 0.8);
+}
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.chak span,
+.chak p {
+  display: table-cell;
+}
+.chak span {
+  width: 220px;
+  text-align: right;
+  padding-right: 20px;
+  color: var(--white);
+}
+.cha h3 {
+  color: var(--energy-second-layer);
+  font-size: 2rem;
+  margin-bottom: 40px;
+  padding-left: 50%;
+  padding-top: 25px;
+}
+.energySecondaryLayer {
+  max-width: 410px;
+  background-image: url("./images/meditation.png");
+  background-position: top left;
+  background-size: 180px 500px;
+  background-repeat: no-repeat;
+}
+.tspink {
+  text-shadow: 0 0 2px #ff00fc, 0 0 4px #ff00fc, 0 0 6px #ff00fc,
+    0 0 8px #ff00fc, 0 0 10px #ff00fc, 0 0 12px #ff00fc, 0 0 15px #ff00fc,
+    0 0 17px #ff00fc, 0 0 20px #ff00fc;
+}
+.tspurple {
+  text-shadow: 0 0 2px #a904cf, 0 0 4px #a904cf, 0 0 6px #a904cf,
+    0 0 8px #a904cf, 0 0 10px #a904cf, 0 0 12px #a904cf, 0 0 15px #a904cf,
+    0 0 17px #a904cf, 0 0 20px #a904cf;
+}
+.tsblue {
+  text-shadow: 0 0 2px #381ce3, 0 0 4px #381ce3, 0 0 6px #381ce3,
+    0 0 8px #381ce3, 0 0 10px #381ce3, 0 0 12px #381ce3, 0 0 15px #381ce3,
+    0 0 17px #381ce3, 0 0 20px #381ce3;
+}
+.tsgreen {
+  text-shadow: 0 0 2px #09d603, 0 0 4px #09d603, 0 0 6px #09d603,
+    0 0 8px #09d603, 0 0 10px #09d603, 0 0 12px #09d603, 0 0 15px #09d603,
+    0 0 17px #09d603, 0 0 20px #09d603;
+}
+.tsyellow {
+  text-shadow: 0 0 2px #ffe400, 0 0 4px #ffe400, 0 0 6px #ffe400,
+    0 0 8px #ffe400, 0 0 10px #ffe400, 0 0 12px #ffe400, 0 0 15px #ffe400,
+    0 0 17px #ffe400, 0 0 20px #ffe400;
+}
+.tsorange {
+  text-shadow: 0 0 2px #e75d02, 0 0 4px #e75d02, 0 0 6px #e75d02,
+    0 0 8px #e75d02, 0 0 10px #e75d02, 0 0 12px #e75d02, 0 0 15px #e75d02,
+    0 0 17px #e75d02, 0 0 20px #e75d02;
+}
+.tsred {
+  text-shadow: 0 0 2px red, 0 0 4px red, 0 0 6px red, 0 0 8px red, 0 0 10px red,
+    0 0 12px red, 0 0 15px red, 0 0 17px red, 0 0 20px red;
+}
 @media only screen and (max-width: 800px) {
   .bg-primary-color {
     text-align: center;
@@ -109,16 +276,41 @@ p {
     padding-top: 30px;
     border: none;
   }
+  .layerOne {
+    padding: 25px 30px 50px 30px;
+  }
+
   .box-shadow {
     box-shadow: 5px 10px 18px #999999;
   }
   .navbar {
-    top: -15px;
+    top: -17px;
   }
   .home {
     margin-top: 20px;
   }
   .p-2 {
     padding: 0.7rem !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .chak span {
+    width: 180px;
+    padding-right: 20px;
+  }
+  .energySecondaryLayer {
+    background-size: 150px 500px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .layerOne {
+    padding: 20px 20px 50px 20px !important;
+  }
+  .chak span {
+    width: 140px;
+    padding-right: 10px;
+  }
+  .energySecondaryLayer {
+    background-size: 120px 520px;
   }
 }

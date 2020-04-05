@@ -24,12 +24,70 @@ class EnergyHealing extends Component {
               and healing in a safe and nuturing space.
             </p>
             <p className="pb-4">
-              I have completed 300 hours of training with The Four Winds in
-              Germany. My teachers: <u>Alberto Villoldo</u>,{" "}
-              <u>Marcela Lobos</u>, <u>Stephen Feely</u>, <u>Moritz Reimann</u>,{" "}
-              <u>Dirk Zschocke</u>, <u>Isabella Marker</u>,{" "}
-              <u>Maria Clara Castaneda</u> and shamans of the{" "}
-              <u>Q'ero Tribe of Peru</u>.
+              I have completed 300 hours of training with{" "}
+              <u>
+                <a href="https://thefourwinds.com/" target="_blank">
+                  The Four Winds
+                </a>
+              </u>{" "}
+              in Germany. My teachers:{" "}
+              <u>
+                <a href="//albertovilloldophd.com/" target="_blank">
+                  Alberto Villoldo
+                </a>
+              </u>
+              ,{" "}
+              <u>
+                <a href="https://www.marcelalobos.com/" target="_blank">
+                  Marcela Lobos
+                </a>
+              </u>
+              ,{" "}
+              <u>
+                <a
+                  href="https://www.purerevitalizingenergy.com/"
+                  target="_blank"
+                >
+                  Stephen Feely
+                </a>
+              </u>
+              ,{" "}
+              <u>
+                <a href="https://thefourwinds.com/about-us/" target="_blank">
+                  Moritz Reimann
+                </a>
+              </u>
+              ,{" "}
+              <u>
+                <a
+                  href="https://sites.google.com/site/urgesundenglish/ueber-mich"
+                  target="_blank"
+                >
+                  Dirk Zschocke
+                </a>
+              </u>
+              ,{" "}
+              <u>
+                <a href="https://www.isabella-marker.com/" target="_blank">
+                  Isabella Marker
+                </a>
+              </u>
+              ,{" "}
+              <u>
+                <a href="https://www.mariaclaracastaneda.com/" target="_blank">
+                  Maria Clara Castaneda
+                </a>
+              </u>{" "}
+              and shamans of the{" "}
+              <u>
+                <a
+                  href="https://shamaniceducation.org/qero-ancient-andean-tribe/"
+                  target="_blank"
+                >
+                  Q'ero Tribe of Peru
+                </a>
+              </u>
+              .
             </p>
           </ShadowBox>
           <p className="mt-4 pt-4">
@@ -38,6 +96,43 @@ class EnergyHealing extends Component {
           </p>
           <i>- Alberto Villoldo</i>
         </LayerOne>
+        <div className="col">
+          <div className="energySecondaryLayer">
+            <div className="cha mt-4">
+              <h3 className="text-center mt-4">CHAKRAS</h3>
+              <div className="chak">
+                <span className="chakras tspink">Crown</span>
+                <p>I am, you are, we are</p>
+              </div>
+              <div className="chak pt-3">
+                <span className="chakras tspurple">Third Eye</span>
+                <p>My inner wisdom guides me</p>
+              </div>
+              <div className="chak">
+                <span className="chakras tsblue">Throat</span>
+                <p>
+                  I express myself appropriately and willingly listen to others
+                </p>
+              </div>
+              <div className="chak">
+                <span className="chakras tsgreen">Heart</span>
+                <p>I love and accept myself and others</p>
+              </div>
+              <div className="chak pt-3">
+                <span className="chakras tsyellow">Solar Plexus</span>
+                <p>I take charge of my life</p>
+              </div>
+              <div className="chak pt-4">
+                <span className="chakras tsorange">Sacral</span>
+                <p>I am open to all worldly pleasures</p>
+              </div>
+              <div className="chak">
+                <span className="chakras tsred">Root</span>
+                <p>I willingly participate in my physical life on earth</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

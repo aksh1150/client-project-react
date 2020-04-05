@@ -28,7 +28,6 @@ class App extends Component {
             <Route path="/faq" component={Faq} />
             <Route path="/aboutme" component={AboutMe} />
             <Route path="/resources" component={Resources} />
-            <Route path="/booksession" component={BookSession} />
           </Switch>
         </div>
       </BrowserRouter>

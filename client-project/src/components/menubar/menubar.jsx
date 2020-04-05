@@ -43,9 +43,6 @@ class MenuBar extends Component {
             <NavLink className="d-inline p-2" to="/resources" exact>
               RESOURCES
             </NavLink>
-            <NavLink className="d-inline p-2" to="/booksession" exact>
-              BOOK A SESSION
-            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
