@@ -31,14 +31,7 @@ h5 {
 .bg-primary-color {
   background-color: var(--primary-color);
 }
-.navbar-nav a {
-  color: var(--navbar-link-color);
-}
-.navbar-nav a.active,
-.navbar-nav a:hover {
-  color: var(--white) !important;
-  text-decoration: none;
-}
+
 .layerOne {
   text-align: center;
   color: var(--white);
@@ -256,33 +249,16 @@ h5 {
   text-shadow: 0 0 2px red, 0 0 4px red, 0 0 6px red, 0 0 8px red, 0 0 10px red,
     0 0 12px red, 0 0 15px red, 0 0 17px red, 0 0 20px red;
 }
+
 @media only screen and (max-width: 800px) {
   .bg-primary-color {
     text-align: center;
   }
-  .navbar-light .collapsed .navbar-toggler-icon {
-    background-image: url("./svg/menu.svg") !important;
-  }
-  .navbar-light .navbar-toggler-icon {
-    width: 25px;
-    background-image: url("./svg/close.svg") !important;
-  }
-  .navbar-light .navbar-toggler {
-    background-color: var(--primary-color);
-    border-radius: 0px;
-    position: absolute;
-    right: 20px;
-    top: 0px;
-    padding-top: 30px;
-    border: none;
-  }
+
   .layerOne {
     padding: 25px 30px 50px 30px;
   }
 
-  .box-shadow {
-    box-shadow: 5px 10px 18px #999999;
-  }
   .navbar {
     top: -17px;
   }

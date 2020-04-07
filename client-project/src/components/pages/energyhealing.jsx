@@ -26,19 +26,31 @@ class EnergyHealing extends Component {
             <p className="pb-4">
               I have completed 300 hours of training with{" "}
               <u>
-                <a href="https://thefourwinds.com/" target="_blank">
+                <a
+                  href="https://thefourwinds.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   The Four Winds
                 </a>
               </u>{" "}
               in Germany. My teachers:{" "}
               <u>
-                <a href="//albertovilloldophd.com/" target="_blank">
+                <a
+                  href="//albertovilloldophd.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Alberto Villoldo
                 </a>
               </u>
               ,{" "}
               <u>
-                <a href="https://www.marcelalobos.com/" target="_blank">
+                <a
+                  href="https://www.marcelalobos.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Marcela Lobos
                 </a>
               </u>
@@ -47,13 +59,18 @@ class EnergyHealing extends Component {
                 <a
                   href="https://www.purerevitalizingenergy.com/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Stephen Feely
                 </a>
               </u>
               ,{" "}
               <u>
-                <a href="https://thefourwinds.com/about-us/" target="_blank">
+                <a
+                  href="https://thefourwinds.com/about-us/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Moritz Reimann
                 </a>
               </u>
@@ -62,19 +79,28 @@ class EnergyHealing extends Component {
                 <a
                   href="https://sites.google.com/site/urgesundenglish/ueber-mich"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Dirk Zschocke
                 </a>
               </u>
               ,{" "}
               <u>
-                <a href="https://www.isabella-marker.com/" target="_blank">
+                <a
+                  href="https://www.isabella-marker.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Isabella Marker
                 </a>
               </u>
               ,{" "}
               <u>
-                <a href="https://www.mariaclaracastaneda.com/" target="_blank">
+                <a
+                  href="https://www.mariaclaracastaneda.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Maria Clara Castaneda
                 </a>
               </u>{" "}
@@ -83,6 +109,7 @@ class EnergyHealing extends Component {
                 <a
                   href="https://shamaniceducation.org/qero-ancient-andean-tribe/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Q'ero Tribe of Peru
                 </a>
@@ -118,11 +145,11 @@ class EnergyHealing extends Component {
                 <span className="chakras tsgreen">Heart</span>
                 <p>I love and accept myself and others</p>
               </div>
-              <div className="chak pt-3">
+              <div className="chak pt-2">
                 <span className="chakras tsyellow">Solar Plexus</span>
                 <p>I take charge of my life</p>
               </div>
-              <div className="chak pt-4">
+              <div className="chak pt-2">
                 <span className="chakras tsorange">Sacral</span>
                 <p>I am open to all worldly pleasures</p>
               </div>

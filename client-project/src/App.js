@@ -4,7 +4,6 @@ import MenuBar from "./components/menubar/menubar";
 import Home from "./components/pages/home";
 import Hypnotherapy from "./components/pages/hypnotherapy";
 import EnergyHealing from "./components/pages/energyhealing";
-import BookSession from "./components/pages/booksession";
 import Resources from "./components/pages/resources";
 import AboutMe from "./components/pages/aboutme";
 import Faq from "./components/pages/faq";

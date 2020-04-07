@@ -1,51 +1,63 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import { Navbar, Nav } from "react-bootstrap";
+import "./menubar.css";
 // import Logo from "../logo";
 class MenuBar extends Component {
   state = {
-    togglebtn: false
+    togglebtn: false,
+    navSlide: false,
   };
-  addShadow = () => {
-    this.setState({ togglebtn: !this.state.togglebtn });
-  };
+
   addBtnShadow() {
     return !this.state.togglebtn ? "box-shadow" : "";
   }
+  slideNav = () => {
+    this.setState({
+      navSlide: !this.state.navSlide,
+      togglebtn: !this.state.togglebtn,
+    });
+  };
+  addNavSlide() {
+    return this.state.navSlide ? "nav-active" : "";
+  }
+  addBurgerClass() {
+    return this.state.navSlide ? "toggle" : "";
+  }
+
   render() {
     return (
-      <Navbar collapseOnSelect className="bg-primary-color" expand="lg">
-        {/* <Navbar.Brand href="#home" className="d-none d-lg-block">
-          <Logo />
-    </Navbar.Brand> */}
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          onClick={this.addShadow}
-          className={this.addBtnShadow()}
-        />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto">
-            <NavLink className="d-inline p-2 home" to="/" exact>
+      <React.Fragment>
+        <nav className="customNavBar">
+          <ul className={`nav-links p-4 ${this.addNavSlide()}`}>
+            <NavLink className="home" to="/" onClick={this.slideNav} exact>
               HOME
             </NavLink>
-            <NavLink className="d-inline p-2" to="/hypnotherapy" exact>
+            <NavLink to="/hypnotherapy" onClick={this.slideNav} exact>
               HYPNOTHERAPY
             </NavLink>
-            <NavLink className="d-inline p-2" to="/energyhealing" exact>
+            <NavLink to="/energyhealing" onClick={this.slideNav} exact>
               ENERGY HEALING
             </NavLink>
-            <NavLink className="d-inline p-2" to="/faq" exact>
+            <NavLink to="/faq" onClick={this.slideNav} exact>
               FAQ
             </NavLink>
-            <NavLink className="d-inline p-2" to="/aboutme" exact>
+            <NavLink to="/aboutme" onClick={this.slideNav} exact>
               ABOUT ME
             </NavLink>
-            <NavLink className="d-inline p-2" to="/resources" exact>
+            <NavLink to="/resources" onClick={this.slideNav} exact>
               RESOURCES
             </NavLink>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+          </ul>
+        </nav>
+        <div
+          className={`burger ml-auto p-1 pt-2 ${this.addBurgerClass()} ${this.addBtnShadow()}`}
+          onClick={this.slideNav}
+        >
+          <div className="line1"></div>
+          <div className="line2"></div>
+          <div className="line3"></div>
+        </div>
+      </React.Fragment>
     );
   }
 }

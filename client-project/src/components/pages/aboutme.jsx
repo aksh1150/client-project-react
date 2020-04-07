@@ -67,44 +67,84 @@ class AboutMe extends Component {
               300 hours of traning with
               <br />
               <u>
-                <a href="https://thefourwinds.com/">The Four Winds</a>
+                <a
+                  href="https://thefourwinds.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  The Four Winds
+                </a>
               </u>{" "}
               in Germany.
               <br />
               <i>
                 My teachers:{" "}
                 <u>
-                  <a href="//albertovilloldophd.com/">Alberto Villoldo</a>
+                  <a
+                    href="//albertovilloldophd.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Alberto Villoldo
+                  </a>
                 </u>
                 ,{" "}
                 <u>
-                  <a href="https://www.marcelalobos.com/">Marcela Lobos</a>
+                  <a
+                    href="https://www.marcelalobos.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Marcela Lobos
+                  </a>
                 </u>
                 ,{" "}
                 <u>
-                  <a href="https://www.purerevitalizingenergy.com/">
+                  <a
+                    href="https://www.purerevitalizingenergy.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Stephen Feely
                   </a>
                 </u>
                 , <u>Moritz Reimann</u>,{" "}
                 <u>
-                  <a href="https://sites.google.com/site/urgesundenglish/ueber-mich">
+                  <a
+                    href="https://sites.google.com/site/urgesundenglish/ueber-mich"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Dirk Zschocke
                   </a>
                 </u>
                 ,{" "}
                 <u>
-                  <a href="https://www.isabella-marker.com/">Isabella Marker</a>
+                  <a
+                    href="https://www.isabella-marker.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Isabella Marker
+                  </a>
                 </u>
                 ,{" "}
                 <u>
-                  <a href="https://www.mariaclaracastaneda.com/">
+                  <a
+                    href="https://www.mariaclaracastaneda.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Maria Clara Castaneda
                   </a>
                 </u>{" "}
                 and shamans of the{" "}
                 <u>
-                  <a href="https://shamaniceducation.org/qero-ancient-andean-tribe/">
+                  <a
+                    href="https://shamaniceducation.org/qero-ancient-andean-tribe/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Q'ero Tribe of Peru
                   </a>
                 </u>
@@ -114,14 +154,26 @@ class AboutMe extends Component {
             </p>
             <p>
               <u>
-                <a href="//ekaa.co.in/">EKAA Foundation</a>
+                <a
+                  href="//ekaa.co.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  EKAA Foundation
+                </a>
               </u>{" "}
               in Dubai
               <br />
               <i>
                 My teachers:{" "}
                 <u>
-                  <a href="//essentiawellbeing.com/about">Sherebanu Katawala</a>
+                  <a
+                    href="//essentiawellbeing.com/about"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Sherebanu Katawala
+                  </a>
                 </u>
                 , <u>Irina Khanna</u> and <u>Zankhana Mistry</u>
               </i>
@@ -129,7 +181,11 @@ class AboutMe extends Component {
             </p>
             <p>
               <u>
-                <a href="https://ukhypnosisacademy.co.uk/">
+                <a
+                  href="https://ukhypnosisacademy.co.uk/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   UK Hypnosis Academy
                 </a>
               </u>
@@ -139,11 +195,21 @@ class AboutMe extends Component {
               <i>
                 My teachers:{" "}
                 <u>
-                  <a href="https://www.tamsinmorgan.co.uk/">Tamsin Morgan</a>
+                  <a
+                    href="https://www.tamsinmorgan.co.uk/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Tamsin Morgan
+                  </a>
                 </u>{" "}
                 and{" "}
                 <u>
-                  <a href="https://www.mlmindandbody.co.uk/hypnosis">
+                  <a
+                    href="https://www.mlmindandbody.co.uk/hypnosis"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Matthew Long
                   </a>
                 </u>
@@ -156,7 +222,13 @@ class AboutMe extends Component {
               <i>
                 My teacher:{" "}
                 <u>
-                  <a href="//blessingssands.com/">Nadia Siddiqui</a>
+                  <a
+                    href="//blessingssands.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Nadia Siddiqui
+                  </a>
                 </u>
               </i>
             </p>

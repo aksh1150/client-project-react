@@ -45,6 +45,8 @@ class Faq extends Component {
           <p className="faqLink pt-2 pb-2">
             <a
               href="https://www.youtube.com/watch?v=ZXavV72msZY"
+              target="_blank"
+              rel="noopener noreferrer"
               className="faqtxtcol"
             >
               What is hypnotherapy and how does hypnotherapy work?
@@ -53,6 +55,8 @@ class Faq extends Component {
           <p className="faqLink pt-2 pb-2">
             <a
               href="https://www.youtube.com/watch?v=Uvf8b2Oyad8"
+              target="_blank"
+              rel="noopener noreferrer"
               className="faqtxtcol"
             >
               What is Hypnosis?
@@ -70,7 +74,13 @@ class Faq extends Component {
             <i className="hypnocol">
               -{" "}
               <u>
-                <a href="https://www.myss.com/">Caroline Myss</a>
+                <a
+                  href="https://www.myss.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Caroline Myss
+                </a>
               </u>
             </i>
             <p className="faqtxtcol pt-4">
@@ -96,7 +106,13 @@ class Faq extends Component {
             <i className="hypnocol">
               -{" "}
               <u>
-                <a href="https://www.instagram.com/annelamott/">Anne Lamott</a>
+                <a
+                  href="https://www.instagram.com/annelamott/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Anne Lamott
+                </a>
               </u>
             </i>
             <p className="faqtxtcol pt-4">
