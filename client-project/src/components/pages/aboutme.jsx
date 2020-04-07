@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import LayerOne from "../layerone";
+import ContactUs from "../form-input/contactUs";
 class AboutMe extends Component {
-  state = {};
   render() {
     return (
       <div className="container-fluid">
@@ -238,6 +238,7 @@ class AboutMe extends Component {
             <br />
             Simply fill out the form below:"
           </p>
+          <ContactUs aboutbtn />
         </div>
       </div>
     );

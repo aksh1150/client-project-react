@@ -6,9 +6,11 @@
   --energy-page-rgb: 109, 209, 226;
   --faq-page-rgb: 199, 109, 175;
   --about-page-rbg: 223, 231, 103;
+  --resource-page-rgb: 233, 178, 10;
   --gradiant-color: rgba(255, 255, 255, 0.1);
 
   --energy-second-layer: #cac2be;
+  --books-font-color: #9da879;
 }
 p {
   font-size: 17px;
@@ -131,6 +133,13 @@ h5 {
   background-repeat: no-repeat;
   padding: 0px 30px;
 }
+.resourceLayerOne {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--resource-page-rgb), 1) 85%,
+    var(--gradiant-color) 100%
+  );
+}
 .homeSecondLayer {
   background-image: linear-gradient(
       to bottom,
@@ -209,7 +218,7 @@ h5 {
   padding-top: 25px;
 }
 .energySecondaryLayer {
-  max-width: 410px;
+  max-width: 380px;
   background-image: url("./images/meditation.png");
   background-position: top left;
   background-size: 180px 500px;
@@ -249,7 +258,58 @@ h5 {
   text-shadow: 0 0 2px red, 0 0 4px red, 0 0 6px red, 0 0 8px red, 0 0 10px red,
     0 0 12px red, 0 0 15px red, 0 0 17px red, 0 0 20px red;
 }
-
+.bookImg {
+  height: 220px;
+  width: 150px;
+}
+.bookList {
+  text-align: center;
+  color: var(--books-font-color);
+}
+.lastch:nth-last-child(4) {
+  padding: 0px 100px;
+}
+.bookList a {
+  color: var(--books-font-color);
+}
+.websites {
+  background-color: rgba(var(--resource-page-rgb), 1);
+  color: var(--white);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.websites a {
+  color: var(--white);
+  text-decoration: underline;
+}
+.videos p {
+  text-align: left;
+}
+.videos iframe {
+  height: 315px;
+  width: 560px;
+}
+.form-control {
+  border-radius: 0px !important;
+  padding: 20px 15px !important;
+}
+.btn-primary {
+  border: none !important;
+  font-size: 18px !important;
+  padding: 10px 30px !important;
+  margin-bottom: 50px;
+  border-radius: 0px !important;
+  width: 120px;
+}
+.aboutbtn {
+  background-color: var(--books-font-color) !important;
+}
+.homebtn {
+  background-color: #387787 !important;
+}
+.contactForm {
+  text-align: center;
+}
 @media only screen and (max-width: 800px) {
   .bg-primary-color {
     text-align: center;
@@ -268,6 +328,10 @@ h5 {
   .p-2 {
     padding: 0.7rem !important;
   }
+  .videos iframe {
+    height: 200px;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 400px) {
   .chak span {
@@ -275,7 +339,10 @@ h5 {
     padding-right: 20px;
   }
   .energySecondaryLayer {
-    background-size: 150px 500px;
+    background-size: 150px 480px;
+  }
+  .videos iframe {
+    height: 180px;
   }
 }
 @media only screen and (max-width: 350px) {
@@ -287,6 +354,13 @@ h5 {
     padding-right: 10px;
   }
   .energySecondaryLayer {
-    background-size: 120px 520px;
+    background-size: 120px 500px;
+  }
+  .bookImg {
+    height: 180px;
+    width: 120px;
+  }
+  .videos iframe {
+    height: 140px;
   }
 }

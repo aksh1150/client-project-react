@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ShadowBox from "../shadowBox";
 import LayerOne from "../layerone";
 import { NavLink } from "react-router-dom";
+import ContactUs from "../form-input/contactUs";
 class Home extends Component {
   render() {
     return (
@@ -61,11 +62,12 @@ class Home extends Component {
         </div>
         <div className="homeThirdLayer layerOne learn-more">
           <h2 className="mt-2">LET'S TALK</h2>
-          <p>
+          <p className="mb-4">
             I would love to hear from you and personally explain to you how your
             session might help with your concerns. Simply fill out the form
             below:
           </p>
+          <ContactUs homebtn />
         </div>
       </div>
     );
