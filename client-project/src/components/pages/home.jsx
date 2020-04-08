@@ -1,9 +1,14 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import ShadowBox from "../shadowBox";
 import LayerOne from "../layerone";
 import { NavLink } from "react-router-dom";
 import ContactUs from "../form-input/contactUs";
+import Aos from "aos";
+import "aos/dist/aos.css";
 class Home extends Component {
+  componentDidMount() {
+    Aos.init();
+  }
   render() {
     return (
       <div className="container-fluid">
@@ -15,7 +20,7 @@ class Home extends Component {
             With our thoughts, we make the world."
           </p>
           <i>- Buddha</i>
-          <ShadowBox homeBoxClass>
+          <ShadowBox homeBoxClass data-aos="fade-up" data-aos-duration="3000">
             <h2>ARE YOU</h2>
             <p>interested in making lasting changes in your life?</p>
             <p>looking to explore alternative healing modalities?</p>
@@ -24,13 +29,17 @@ class Home extends Component {
         </LayerOne>
         <div>
           <img
-            src={require("../../images/homePerson.png")}
+            src={require("../../images/homePerson.jpg")}
             alt="logo"
             className="mx-auto d-block img-fluid"
           />
         </div>
         <div className="col homeSecondLayer layerOne learn-more">
-          <p className="hypnocol mt-4">
+          <p
+            className="hypnocol mt-4"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
             "We come to realise that the universe mirrors back to us perfectly
             our beliefs, our intentions, our sincerity. 'What is' is the product
             of the map of reality you carry inside you. If you want to change
@@ -38,7 +47,7 @@ class Home extends Component {
           </p>
           <i className="hypnocol">- Alberto Villoldo</i>
           <h2 className="mt-4">ABOUT ME</h2>
-          <p>
+          <p data-aos="fade-right" data-aos-duration="3000">
             "My training has included the UK Hypnosis Academy, The Four Winds,
             and EKAA, amongst others. My own experiences with hypnotherapy,
             energy healing and other alternative health and healing modalities
@@ -62,7 +71,7 @@ class Home extends Component {
         </div>
         <div className="homeThirdLayer layerOne learn-more">
           <h2 className="mt-2">LET'S TALK</h2>
-          <p className="mb-4">
+          <p className="mb-4" data-aos="fade-up" data-aos-duration="3000">
             I would love to hear from you and personally explain to you how your
             session might help with your concerns. Simply fill out the form
             below:

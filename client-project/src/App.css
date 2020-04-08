@@ -1,6 +1,5 @@
 :root {
   --primary-color: #5bafb1;
-  --navbar-link-color: #9b867a;
   --home-page-rgb: 91, 175, 177;
   --hypno-page-rgb: 215, 223, 43;
   --energy-page-rgb: 109, 209, 226;
@@ -26,7 +25,7 @@ p {
 h2 {
   padding: 10px 10px 0px 10px;
   text-shadow: 3px 5px 7px rgba(1, 1, 1, 0.13);
-  font-weight: 700 !important;
+  font-weight: 400 !important;
 }
 h5 {
   font-size: 18px !important;
@@ -128,7 +127,7 @@ h5 {
       rgba(var(--about-page-rbg), 1) 10%,
       var(--gradiant-color) 25%
     ),
-    url("./images/oie_ciSnbNSZpeAC.png");
+    url("./images/aboutPerson.jpg");
   background-size: cover;
   height: 780px;
 }
@@ -231,7 +230,7 @@ h5 {
   max-width: 380px;
   background-image: url("./images/meditation.png");
   background-position: top left;
-  background-size: 180px 500px;
+  background-size: 180px 510px;
   background-repeat: no-repeat;
 }
 .tspink {
@@ -328,6 +327,10 @@ h5 {
   box-shadow: 5px 10px 8px 10px #888888;
   background: #ffffff !important;
 }
+.chak p {
+  line-height: 18px;
+}
+
 @media only screen and (max-width: 800px) {
   .bg-primary-color {
     text-align: center;
@@ -359,10 +362,13 @@ h5 {
     padding-right: 20px;
   }
   .energySecondaryLayer {
-    background-size: 150px 480px;
+    background-size: 150px 475px;
   }
   .videos iframe {
     height: 180px;
+  }
+  .layerOne p {
+    padding: 0 8px;
   }
 }
 @media only screen and (max-width: 350px) {
@@ -374,7 +380,7 @@ h5 {
     padding-right: 10px;
   }
   .energySecondaryLayer {
-    background-size: 120px 500px;
+    background-size: 120px 520px;
   }
   .bookImg {
     height: 180px;

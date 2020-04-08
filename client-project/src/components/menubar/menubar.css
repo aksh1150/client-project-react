@@ -2,7 +2,7 @@
   display: flex !important;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(var(--home-page-rgb), 1);
+  background-color: #b2e2e7;
 }
 .customNavBar a {
   color: var(--white);
@@ -35,7 +35,8 @@
   box-shadow: 5px 10px 18px #999999;
 }
 .nav-links a {
-  color: var(--navbar-link-color);
+  color: var(--books-font-color);
+  font-size: 20px;
 }
 .nav-links a.active,
 .nav-links a:hover {
@@ -59,7 +60,7 @@
     right: 0px;
     height: 60vh;
     top: 0vh;
-    background-color: rgba(var(--home-page-rgb), 1);
+    background-color: #b2e2e7;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,7 +73,7 @@
     display: block;
     z-index: 9;
     position: absolute;
-    background: rgba(var(--home-page-rgb), 1);
+    background: #b2e2e7;
     right: 20px;
     top: 0;
     padding-top: 10px;

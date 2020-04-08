@@ -1,10 +1,15 @@
 import React, { Component } from "react";
 import LayerOne from "../layerone";
 import BOOKS_DATA from "../../data/books";
+import Aos from "aos";
+import "aos/dist/aos.css";
 class Resources extends Component {
   state = {
     getBooks: BOOKS_DATA,
   };
+  componentDidMount() {
+    Aos.init();
+  }
   render() {
     return (
       <div className="container-fluid">
@@ -21,9 +26,7 @@ class Resources extends Component {
         </LayerOne>
         <div className="row justify-content-md-center bookList">
           <div className="col-12">
-            <h4>
-              <b>Books</b>
-            </h4>
+            <h4>Books</h4>
             <p className="pr-4 pl-4">
               can be ordered through{" "}
               <u>
@@ -39,7 +42,12 @@ class Resources extends Component {
             </p>
           </div>
           {this.state.getBooks.map((book) => (
-            <div key={book.id} className="col mt-3 lastch">
+            <div
+              key={book.id}
+              className="col mt-3 lastch"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <img
                 src={require(`../../images/books/${book.id}.jpg`)}
                 alt="logo"
@@ -61,7 +69,7 @@ class Resources extends Component {
           </div>
           <div className="col-12 websites mt-4">
             <h4>
-              <b>Websites</b>
+              Websites
               <p className="pt-4">
                 <a
                   href="https://acim.org/"
@@ -191,10 +199,13 @@ class Resources extends Component {
             </h4>
           </div>
           <div className="col-12 videos mt-4 pt-4">
-            <h4>
-              <b>Videos</b>
-            </h4>
-            <div className="col mt-4">
+            <h4>Videos</h4>
+            <div
+              className="col mt-4"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-anchor-placement="center-bottom"
+            >
               <iframe
                 src="https://www.youtube.com/embed/mTB0wYZTXxw"
                 frameBorder="0"
@@ -207,7 +218,12 @@ class Resources extends Component {
                 Regeneration | 9 MIRACLE TONES
               </p>
             </div>
-            <div className="col mt-4">
+            <div
+              className="col mt-4"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-anchor-placement="center-bottom"
+            >
               <iframe
                 src="https://www.youtube.com/embed/5mikwYABpME"
                 frameBorder="0"
@@ -220,7 +236,12 @@ class Resources extends Component {
                 with 26 Hard Placements Animation
               </p>
             </div>
-            <div className="col mt-4">
+            <div
+              className="col mt-4"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-anchor-placement="center-bottom"
+            >
               <iframe
                 src="https://www.youtube.com/embed/wzjWIxXBs_s"
                 frameBorder="0"

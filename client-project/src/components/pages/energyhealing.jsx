@@ -1,7 +1,12 @@
 import React, { Component } from "react";
 import ShadowBox from "../shadowBox";
 import LayerOne from "../layerone";
+import Aos from "aos";
+import "aos/dist/aos.css";
 class EnergyHealing extends Component {
+  componentDidMount() {
+    Aos.init();
+  }
   render() {
     return (
       <div className="container-fluid">
@@ -128,33 +133,82 @@ class EnergyHealing extends Component {
             <div className="cha mt-4">
               <h3 className="text-center mt-4">CHAKRAS</h3>
               <div className="chak">
-                <span className="chakras tspink">Crown</span>
+                <span
+                  className="chakras tspink"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-anchor-placement="bottom-bottom"
+                >
+                  Crown
+                </span>
                 <p>I am, you are, we are</p>
               </div>
               <div className="chak pt-3">
-                <span className="chakras tspurple">Third Eye</span>
+                <span
+                  className="chakras tspurple"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-anchor-placement="bottom-bottom"
+                >
+                  Third Eye
+                </span>
                 <p>My inner wisdom guides me</p>
               </div>
-              <div className="chak">
-                <span className="chakras tsblue">Throat</span>
+              <div className="chak pt-2">
+                <span
+                  className="chakras tsblue"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-anchor-placement="bottom-bottom"
+                >
+                  Throat
+                </span>
                 <p>
                   I express myself appropriately and willingly listen to others
                 </p>
               </div>
-              <div className="chak">
-                <span className="chakras tsgreen">Heart</span>
+              <div className="chak pt-4">
+                <span
+                  className="chakras tsgreen"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                  data-aos-anchor-placement="bottom-bottom"
+                >
+                  Heart
+                </span>
                 <p>I love and accept myself and others</p>
               </div>
-              <div className="chak pt-2">
-                <span className="chakras tsyellow">Solar Plexus</span>
+              <div className="chak pt-4">
+                <span
+                  className="chakras tsyellow"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                  data-aos-anchor-placement="bottom-bottom"
+                >
+                  Solar Plexus
+                </span>
                 <p>I take charge of my life</p>
               </div>
-              <div className="chak pt-2">
-                <span className="chakras tsorange">Sacral</span>
+              <div className="chak pt-4 mt-1">
+                <span
+                  className="chakras tsorange"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="bottom-bottom"
+                >
+                  Sacral
+                </span>
                 <p>I am open to all worldly pleasures</p>
               </div>
-              <div className="chak">
-                <span className="chakras tsred">Root</span>
+              <div className="chak pt-2">
+                <span
+                  className="chakras tsred"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="bottom-bottom"
+                >
+                  Root
+                </span>
                 <p>I willingly participate in my physical life on earth</p>
               </div>
             </div>
