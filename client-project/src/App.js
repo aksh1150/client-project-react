@@ -10,7 +10,7 @@ import Faq from "./components/pages/faq";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Logo from "./components/logo";
-
+import Footer from "./components/footer";
 class App extends Component {
   state = {};
   render() {
@@ -19,15 +19,17 @@ class App extends Component {
         <div>
           <MenuBar />
           <Logo />
-
-          <Switch>
-            <Route path="/" component={Home} exact />
-            <Route path="/hypnotherapy" component={Hypnotherapy} />
-            <Route path="/energyhealing" component={EnergyHealing} />
-            <Route path="/faq" component={Faq} />
-            <Route path="/aboutme" component={AboutMe} />
-            <Route path="/resources" component={Resources} />
-          </Switch>
+          <div className="comonents">
+            <Switch>
+              <Route path="/" component={Home} exact />
+              <Route path="/hypnotherapy" component={Hypnotherapy} />
+              <Route path="/energyhealing" component={EnergyHealing} />
+              <Route path="/faq" component={Faq} />
+              <Route path="/aboutme" component={AboutMe} />
+              <Route path="/resources" component={Resources} />
+            </Switch>
+          </div>
+          <Footer />
         </div>
       </BrowserRouter>
     );

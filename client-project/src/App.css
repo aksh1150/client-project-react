@@ -12,11 +12,21 @@
   --energy-second-layer: #cac2be;
   --books-font-color: #9da879;
 }
+@font-face {
+  font-family: futura;
+  src: url("./fonts/futura_light.ttf");
+}
+body {
+  background-color: #e3e3e3 !important;
+  font-family: futura !important;
+}
 p {
   font-size: 17px;
 }
 h2 {
   padding: 10px 10px 0px 10px;
+  text-shadow: 3px 5px 7px rgba(1, 1, 1, 0.13);
+  font-weight: 700 !important;
 }
 h5 {
   font-size: 18px !important;
@@ -266,9 +276,7 @@ h5 {
   text-align: center;
   color: var(--books-font-color);
 }
-.lastch:nth-last-child(4) {
-  padding: 0px 100px;
-}
+
 .bookList a {
   color: var(--books-font-color);
 }
@@ -310,20 +318,32 @@ h5 {
 .contactForm {
   text-align: center;
 }
+.foot p {
+  color: var(--books-font-color);
+  text-align: center;
+}
+.container-fluid {
+  max-width: 600px !important;
+  border: 1px solid #999999;
+  box-shadow: 5px 10px 8px 10px #888888;
+  background: #ffffff !important;
+}
 @media only screen and (max-width: 800px) {
   .bg-primary-color {
     text-align: center;
   }
-
+  .container-fluid {
+    box-shadow: none;
+    border: none;
+  }
   .layerOne {
     padding: 25px 30px 50px 30px;
   }
-
+  .lastch:nth-last-child(4) {
+    padding: 0px 100px;
+  }
   .navbar {
     top: -17px;
-  }
-  .home {
-    margin-top: 20px;
   }
   .p-2 {
     padding: 0.7rem !important;

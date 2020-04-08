@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import MENUBAR_DATA from "../../data/menubar";
 import "./menubar.css";
 // import Logo from "../logo";
 class MenuBar extends Component {
   state = {
     togglebtn: false,
     navSlide: false,
+    getMenu: MENUBAR_DATA,
   };
 
   addBtnShadow() {
@@ -29,7 +31,17 @@ class MenuBar extends Component {
       <React.Fragment>
         <nav className="customNavBar">
           <ul className={`nav-links p-4 ${this.addNavSlide()}`}>
-            <NavLink className="home" to="/" onClick={this.slideNav} exact>
+            {this.state.getMenu.map((menu) => (
+              <NavLink
+                key={menu.id}
+                to={menu.link}
+                onClick={this.slideNav}
+                exact
+              >
+                {menu.title}
+              </NavLink>
+            ))}
+            {/*}  <NavLink to="/" onClick={this.slideNav} exact>
               HOME
             </NavLink>
             <NavLink to="/hypnotherapy" onClick={this.slideNav} exact>
@@ -46,7 +58,7 @@ class MenuBar extends Component {
             </NavLink>
             <NavLink to="/resources" onClick={this.slideNav} exact>
               RESOURCES
-            </NavLink>
+            </NavLink> */}
           </ul>
         </nav>
         <div

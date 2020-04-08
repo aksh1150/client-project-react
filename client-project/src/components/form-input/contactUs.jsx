@@ -9,18 +9,51 @@ class ContactUs extends Component {
     message: "",
     homebtn: this.props.homebtn,
     aboutbtn: this.props.aboutbtn,
+    emailstatus: "",
   };
+
   handleSubmit = async (event) => {
+    // console.log(this.state);
+    // create a new XMLHTTPREQUEST
+    const { userName, email, phone, message } = this.state;
+
+    var xhr = new XMLHttpRequest();
+    // get a callback when server responds
+    xhr.addEventListener("load", () => {
+      // update the emailstatus with the response
+      // console.log(xhr.responseText);
+      this.setState({ emailstatus: xhr.responseText });
+    });
+    xhr.open(
+      "GET",
+      "http://tstsrv.onstore.ca/sendemail/index.php?email=" +
+        email +
+        "&name=" +
+        userName +
+        "&phone=" +
+        phone +
+        "&message=" +
+        message
+    );
+    // send the request
+    xhr.send();
     event.preventDefault();
   };
+
   handleChange = (event) => {
     const { name, value } = event.target;
     this.setState({ [name]: value });
   };
+  btnClass = () => {
+    const { aboutbtn, homebtn } = this.state;
+    if (aboutbtn === true) return "aboutbtn";
+    if (homebtn === true) return "homebtn";
+  };
   render() {
-    const { userName, email, phone, message, homebtn, aboutbtn } = this.state;
+    const { userName, email, phone, message, emailstatus } = this.state;
     return (
       <div className="col-12 contactForm">
+        {emailstatus ? emailstatus : null}
         <form onSubmit={this.handleSubmit}>
           <FormInput
             type="text"
@@ -60,9 +93,7 @@ class ContactUs extends Component {
             required
           />
           <button
-            className={`btn btn-primary mt-4 ${aboutbtn ? "aboutbtn" : ""} ${
-              homebtn ? "homebtn" : ""
-            }`}
+            className={`btn btn-primary mt-4 ${this.btnClass()}`}
             type="submit"
           >
             Send

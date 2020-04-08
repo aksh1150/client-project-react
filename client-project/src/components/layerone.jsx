@@ -6,7 +6,7 @@ const LayerOne = ({
   energyLayerOne,
   faqLaterOne,
   aboutLayerOne,
-  resourceLayerOne
+  resourceLayerOne,
 }) => {
   return (
     <div
@@ -16,7 +16,7 @@ const LayerOne = ({
         faqLaterOne ? "faqLayerOne" : ""
       } ${aboutLayerOne ? "aboutLayerOne" : ""} ${
         resourceLayerOne ? "resourceLayerOne" : ""
-      } col layerOne mt-4`}
+      } col layerOne`}
     >
       {children}
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <div className="col">
+    <div className="col mb-4">
       <img
         src={require("../images/logo.png")}
         alt="logo"
