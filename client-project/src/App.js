@@ -7,10 +7,11 @@ import EnergyHealing from "./components/pages/energyhealing";
 import Resources from "./components/pages/resources";
 import AboutMe from "./components/pages/aboutme";
 import Faq from "./components/pages/faq";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import ScrollIntoView from "./components/menubar/ScrollIntoView";
 import Logo from "./components/logo";
 import Footer from "./components/footer";
+import NotFound from "./components/pages/not-found";
 class App extends Component {
   state = {};
   render() {
@@ -28,6 +29,8 @@ class App extends Component {
                 <Route path="/faq" component={Faq} />
                 <Route path="/aboutme" component={AboutMe} />
                 <Route path="/resources" component={Resources} />
+                <Route path="/not-found" component={NotFound} />
+                <Redirect to="/not-found" />
               </Switch>
             </ScrollIntoView>
           </div>

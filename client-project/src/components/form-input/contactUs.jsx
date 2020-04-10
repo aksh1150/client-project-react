@@ -10,6 +10,7 @@ class ContactUs extends Component {
     homebtn: this.props.homebtn,
     aboutbtn: this.props.aboutbtn,
     emailstatus: "",
+    isLoading: false,
   };
 
   handleSubmit = async (event) => {
@@ -17,12 +18,14 @@ class ContactUs extends Component {
     // create a new XMLHTTPREQUEST
     const { userName, email, phone, message } = this.state;
 
+    this.setState({ isLoading: true });
+
     var xhr = new XMLHttpRequest();
     // get a callback when server responds
     xhr.addEventListener("load", () => {
       // update the emailstatus with the response
       // console.log(xhr.responseText);
-      this.setState({ emailstatus: xhr.responseText });
+      this.setState({ emailstatus: xhr.responseText, isLoading: true });
     });
     xhr.open(
       "GET",
@@ -44,17 +47,19 @@ class ContactUs extends Component {
     const { name, value } = event.target;
     this.setState({ [name]: value });
   };
+
   btnClass = () => {
     const { aboutbtn, homebtn } = this.state;
     if (aboutbtn === true) return "aboutbtn";
     if (homebtn === true) return "homebtn";
   };
+
   render() {
     const { userName, email, phone, message, emailstatus } = this.state;
     return (
       <div className="col-12 contactForm">
         {emailstatus ? emailstatus : null}
-        <form onSubmit={this.handleSubmit}>
+        <form onSubmit={this.handleSubmit} noValidate>
           <FormInput
             type="text"
             name="userName"
@@ -95,8 +100,14 @@ class ContactUs extends Component {
           <button
             className={`btn btn-primary mt-4 ${this.btnClass()}`}
             type="submit"
+            disabled={this.state.isLoading}
           >
-            Send
+            <span
+              className={
+                this.state.isLoading ? "spinner-grow spinner-grow-sm" : ""
+              }
+            />
+            {this.state.isLoading ? "Loading..." : "Send"}
           </button>
         </form>
       </div>

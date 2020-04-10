@@ -14,9 +14,7 @@ class Home extends Component {
       <div className="container-fluid">
         <LayerOne homeLayerOne>
           <p>
-            "We are what we think.
-            <br /> All that we are arises with our thoughts.
-            <br />
+            "We are what we think. All that we are arises with our thoughts.
             With our thoughts, we make the world."
           </p>
           <i>- Buddha</i>
