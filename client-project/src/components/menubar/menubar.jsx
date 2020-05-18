@@ -27,10 +27,15 @@ class MenuBar extends Component {
   }
 
   render() {
+    const { deskTopVersion } = this.props;
     return (
       <React.Fragment>
-        <nav className="customNavBar">
-          <ul className={`nav-links p-4 ${this.addNavSlide()}`}>
+        <nav className={deskTopVersion ? "col-md-10" : "customNavBar"}>
+          <div
+            className={`${
+              deskTopVersion ? "nav-links-desktop" : "nav-links"
+            } p-4 ${this.addNavSlide()}`}
+          >
             {this.state.getMenu.map((menu) => (
               <NavLink
                 key={menu.id}
@@ -41,25 +46,7 @@ class MenuBar extends Component {
                 {menu.title}
               </NavLink>
             ))}
-            {/*}  <NavLink to="/" onClick={this.slideNav} exact>
-              HOME
-            </NavLink>
-            <NavLink to="/hypnotherapy" onClick={this.slideNav} exact>
-              HYPNOTHERAPY
-            </NavLink>
-            <NavLink to="/energyhealing" onClick={this.slideNav} exact>
-              ENERGY HEALING
-            </NavLink>
-            <NavLink to="/faq" onClick={this.slideNav} exact>
-              FAQ
-            </NavLink>
-            <NavLink to="/aboutme" onClick={this.slideNav} exact>
-              ABOUT ME
-            </NavLink>
-            <NavLink to="/resources" onClick={this.slideNav} exact>
-              RESOURCES
-            </NavLink> */}
-          </ul>
+          </div>
         </nav>
         <div
           className={`burger ml-auto p-1 pt-2 ${this.addBurgerClass()} ${this.addBtnShadow()}`}

@@ -12,9 +12,7 @@ class Faq extends Component {
               "It is not easy to find happiness in ourselves, and it is not
               possible to find it elsewhere"
             </p>
-            <i className="hypnocol">
-              - <u>Agnes Repplier</u>
-            </i>
+            <i className="hypnocol">- Agnes Repplier</i>
             <p className="faqtxtcol pt-4">
               The term "hypnosis" comes from the acient Greek word "hypnos",
               meaning "sleep". Hypnosis is a natural state of deep relaxation
@@ -33,7 +31,10 @@ class Faq extends Component {
               different from our ordinary state of consciousness. Using
               carefully developed scripts, hypnotherapy allows for changes to
               our emotional, behavioural, attitudinal and spiritual selves to
-              take place. During hypnotherapy you are always in control.
+              take place.
+            </p>
+            <p className="faqtxtcol pt-4">
+              <b>During hypnotherapy you are always in control.</b>
             </p>
             <hr />
           </div>
@@ -71,18 +72,7 @@ class Faq extends Component {
             <p className="hypnocol">
               "Between thinking and seeing, there is a place called knowing."
             </p>
-            <i className="hypnocol">
-              -{" "}
-              <u>
-                <a
-                  href="https://www.myss.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Caroline Myss
-                </a>
-              </u>
-            </i>
+            <i className="hypnocol">- Caroline Myss</i>
             <p className="faqtxtcol pt-4">
               Hypnosis is a safe, effective and scientifically accepted
               procedure that is being practiced all over the world right now.
@@ -92,7 +82,7 @@ class Faq extends Component {
               possible, because hypnosis requires your participation and consent
               for it to work. It is important to remember that you are in
               control at all times. You cannot do anything that you feel is
-              against your care valies and your will.
+              against your core values and your will.
             </p>
           </div>
         </LayerOne>
@@ -103,18 +93,7 @@ class Faq extends Component {
               "Almost everything will work again if you unplug it for a few
               minutes, including you."
             </p>
-            <i className="hypnocol">
-              -{" "}
-              <u>
-                <a
-                  href="https://www.instagram.com/annelamott/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Anne Lamott
-                </a>
-              </u>
-            </i>
+            <i className="hypnocol">- Anne Lamott</i>
             <p className="faqtxtcol pt-4">
               In your first session, you will complete a questionnaire, then we
               will take some time to discuss and identify the issue, followed by

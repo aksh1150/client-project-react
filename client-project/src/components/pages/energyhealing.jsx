@@ -23,13 +23,13 @@ class EnergyHealing extends Component {
             <i className="hypnocol">- Alberto Villoldo</i>
             <p className="mt-4">
               This work is healing on a deep energetic level, a way to connect
-              to your Luminous Energy Field(LEF) through shamanic practices. We
+              to your Luminous Energy Field (LEF) through shamanic practices. We
               are healing our past and even our future, so we can live in the
-              present. Cone with an open mind to experience extraordinary growth
+              present. Come with an open mind to experience extraordinary growth
               and healing in a safe and nuturing space.
             </p>
             <p className="pb-4">
-              I have completed 300 hours of training with{" "}
+              I have trained with{" "}
               <u>
                 <a
                   href="https://thefourwinds.com/"
@@ -39,7 +39,7 @@ class EnergyHealing extends Component {
                   The Four Winds
                 </a>
               </u>{" "}
-              in Germany. My teachers:{" "}
+              . My teachers:{" "}
               <u>
                 <a
                   href="//albertovilloldophd.com/"

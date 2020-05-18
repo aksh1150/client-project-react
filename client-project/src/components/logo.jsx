@@ -1,14 +1,16 @@
 import React from "react";
-
-const Logo = () => {
+import { NavLink } from "react-router-dom";
+const Logo = ({ mobileLogo }) => {
   return (
-    <div className="col mb-4">
-      <img
-        src={require("../images/logo.png")}
-        alt="logo"
-        className="mx-auto d-block mt-4"
-        width="200"
-      />
+    <div className={mobileLogo ? "col mb-4" : "col-md-2"}>
+      <NavLink to="/" exact>
+        <img
+          src={require("../images/logo.png")}
+          alt="logo"
+          className={`${mobileLogo ? "mx-auto" : ""} d-block mt-4`}
+          width="200"
+        />
+      </NavLink>
     </div>
   );
 };

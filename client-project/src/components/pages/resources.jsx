@@ -16,11 +16,11 @@ class Resources extends Component {
         <LayerOne resourceLayerOne>
           <h2>RESOURCES</h2>
           <p className="hypnocol mt-2">
-            "If you belive firmly that your consciousness is locked up somewhere
-            inside your skull and is powerless to escape it, if you feel that
-            your consciousness ends at the boundary of your body, then you sell
-            yourself short, and you will think that I am a delusion. I am no
-            more a delusion than you are."
+            "If you believe firmly that your consciousness is locked up
+            somewhere inside your skull and is powerless to escape it, if you
+            feel that your consciousness ends at the boundary of your body, then
+            you sell yourself short, and you will think that I am a delusion. I
+            am no more a delusion than you are."
           </p>
           <i className="hypnocol">- Seth</i>
         </LayerOne>
@@ -54,7 +54,7 @@ class Resources extends Component {
                 className="mx-auto d-block bookImg"
               />
               <p className="p-2">
-                <i>{book.title}</i>
+                <i>{book.title}</i> {book.author}
               </p>
             </div>
           ))}
@@ -65,6 +65,7 @@ class Resources extends Component {
               All books by Dolores Cannon
               <br />
               All books by Brain Weiss
+              <br />A New Earth by Eckhart Tolle
             </p>
           </div>
           <div className="col-12 websites mt-4">
@@ -99,6 +100,15 @@ class Resources extends Component {
               </p>
               <p>
                 <a
+                  href="https://www.myss.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Caroline Myss
+                </a>
+              </p>
+              <p>
+                <a
                   href="https://deborahking.com/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -113,6 +123,24 @@ class Resources extends Component {
                   rel="noopener noreferrer"
                 >
                   Dr Christiane Northrup
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://drjoedispenza.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Dr Joe Dispenza
+                </a>
+              </p>
+              <p>
+                <a
+                  href="//ntiawellbeing.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Essentia Well Being Center
                 </a>
               </p>
               <p>
@@ -144,20 +172,11 @@ class Resources extends Component {
               </p>
               <p>
                 <a
-                  href="https://www.myss.com/"
+                  href="https://illuminations.ae/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Caroline Myss
-                </a>
-              </p>
-              <p>
-                <a
-                  href="https://drjoedispenza.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Dr Joe Dispenza
+                  Illuminations Well Being Center
                 </a>
               </p>
               <p>
@@ -167,24 +186,6 @@ class Resources extends Component {
                   rel="noopener noreferrer"
                 >
                   Mindful Me
-                </a>
-              </p>
-              <p>
-                <a
-                  href="//ntiawellbeing.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Essentia Well Being Center
-                </a>
-              </p>
-              <p>
-                <a
-                  href="https://illuminations.ae/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Illuminations Well Being Center
                 </a>
               </p>
               <p>

@@ -9,7 +9,8 @@ class Hypnotherapy extends Component {
           <ShadowBox hypnoBox>
             <h2>HOW CAN HYPNOTHERAPY HELP ME?</h2>
             <p className="hypnocol">
-              "One of the biggest gifts you can give the word is a healed life."
+              "One of the biggest gifts you can give the world is a healed
+              life."
             </p>
             <i className="hypnocol">- Christiane Northrup</i>
             <div className="homeBoxClass p-4 mt-3">
@@ -22,21 +23,24 @@ class Hypnotherapy extends Component {
               <p>Anxiety</p>
               <p>Asthma if triggered by stress</p>
               <p>Confidence/Motivation/Self-Esteem</p>
+              <p>Confusion about Life Purpose</p>
               <p>Depression</p>
               <p>Eating Disorders</p>
               <p>Eczema from stress and anxiety</p>
-              <p>Irritable Bowel Syndrome stress</p>
               <p>Insomnia</p>
+              <p>Irritable Bowel Syndrome stress</p>
+
               <p>Migraines</p>
               <p>Obessive Compulsive Disorder</p>
               <p>Pain Control</p>
               <p>Panic Attacks</p>
               <p>Phobias (fear of flying, spiders, etc.)</p>
               <p>Psoriasis if caused through stress</p>
+              <p>Quit Smoking</p>
               <p>Sexual Abuse</p>
               <p>Sports/Work Performance and Enhancement</p>
               <p>Stammering</p>
-              <p>Quit Smoking</p>
+
               <p>Stress/Anxieties</p>
               <p>Weight Loss</p>
             </div>

@@ -14,7 +14,7 @@ class AboutMe extends Component {
           <i className="hypnocol">- Eckhart Tolle</i>
         </LayerOne>
         <div className="layerOnes">
-          <p className="abotTxtCol">
+          <p className="abotTxtCol mt-2">
             Hi, and thanks for visiting my website. I am from Australia, but I
             have spent most of my adult life living in other countries. Dubai
             has been my home since 2011.
@@ -32,21 +32,23 @@ class AboutMe extends Component {
             So I began my journey in my mid-40s to see what else life had to
             offer me. It wasn't until I had a profound awakening and healing
             experience through hypnosis that I finally felt able to begin the
-            journey of making significant changes in my life and begin on the
-            path of becoming a hypnotherapist and energy healer. This new path
-            has brought about many uplifting changes in my thinking and life
-            experience. I welcome the opportunity to work with a variety of
-            people and assist them on their healing journey. My experience was
-            one of "I'm not sure why I feel like this and how to change my
-            thinking patterns, but I know I need some guidance and assistance to
-            help me on my journey."
+            journey of making significant changes in my life and set out on the
+            path of becoming a hypnotherapist and energy healer. This new way of
+            life has brought about many uplifting changes in my thinking and
+            life experience.
           </p>
           <p className="abotTxtCol">
-            As we all know, the most profound guidance comes from within
-            ourselves. Allow me to help you find your inner voice, so you can
-            better navigate the outer world. The techniques I have learnt are
-            about helping you to feel empowered, so you can recognise and listen
-            to your intuition.
+            I welcome the opportunity to work with a variety of people and
+            assist them on their healing journey. My experience was one of "I'm
+            not sure why I feel like this and how to change my thinking
+            patterns, but I know I need some guidance and assistance to help me
+            on my journey."
+          </p>
+          <p className="abotTxtCol">
+            The most profound guidance comes from within ourselves. Allow me to
+            help you find your inner voice, so you can better navigate the outer
+            world. The techniques I have learnt are about helping you to feel
+            empowered, so you can recognise and listen to your intuition.
           </p>
           <p className="abotTxtCol">
             If you are looking to make profound changes, I know this experience
@@ -62,10 +64,9 @@ class AboutMe extends Component {
               understand the value of healing myself:
               <br />
               <br />
+              My training has included:
             </p>
             <p>
-              300 hours of traning with
-              <br />
               <u>
                 <a
                   href="https://thefourwinds.com/"
@@ -165,7 +166,7 @@ class AboutMe extends Component {
               in Dubai
               <br />
               <i>
-                My teachers:{" "}
+                My teachers: <u>Yuvraj Kapadia</u>,{" "}
                 <u>
                   <a
                     href="//essentiawellbeing.com/about"
@@ -234,9 +235,8 @@ class AboutMe extends Component {
             </p>
           </div>
           <p className="hypnocol aboutForm p-4">
-            "I am happy to answer any questions you might have.
-            <br />
-            Simply fill out the form below:"
+            "I am happy to answer any questions you might have. Simply fill out
+            the form below:"
           </p>
           <ContactUs aboutbtn />
         </div>

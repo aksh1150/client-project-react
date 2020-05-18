@@ -1,50 +1,77 @@
 const BOOKS_DATA = [
   {
     id: "1",
-    title: "Autobiography of a Yogi Paramahansa",
+    title: "Autobiography of a",
+    author: "Yogi Paramahansa",
   },
   {
     id: "2",
-    title: "Seth Speaks: The Eternal Validity of the Soul Jane Roberts",
+    title: "Seth Speaks: The Eternal Validity of the Soul",
+    author: "Jane Roberts",
   },
   {
     id: "3",
-    title: "Shaman, Healer, Sage Alberto Villoldo",
+    title: "Shaman, Healer, Sage",
+    author: "Alberto Villoldo",
   },
   {
     id: "4",
-    title: "The Field Lynne McTaggart",
+    title: "The Field",
+    author: "Lynne McTaggart",
   },
   {
     id: "5",
     title:
-      "The Intuitive Way: The Definitive Guide to Increasing Your Awareness Penney Peirce",
+      "The Intuitive Way: The Definitive Guide to Increasing Your Awareness",
+    author: "Penney Peirce",
   },
   {
     id: "6",
-    title: "The Magnesium Miracle (Second Edition) Carolyn Dean",
+    title: "The Magnesium Miracle (Second Edition)",
+    author: "Carolyn Dean",
   },
   {
     id: "7",
-    title: "The Untethered Soul The Journey Beyond Yourself Michael A. Singer",
+    title: "The Untethered Soul The Journey Beyond Yourself",
+    author: "Michael A. Singer",
   },
   {
     id: "8",
-    title: "Be Here Now Ram Dass",
+    title: "Be Here Now",
+    author: "Ram Dass",
   },
   {
     id: "9",
-    title:
-      "Hands of Light: A Guide to Healing Through the Human Energy Field Barbara Ann Brennan",
+    title: "Hands of Light: A Guide to Healing Through the Human Energy Field",
+    author: "Barbara Ann Brennan",
   },
   {
     id: "10",
     title:
-      "Writing Down Your Soul: How to Activate and Listen to the Extraordinary Voice Within Janet Conner",
+      "Writing Down Your Soul: How to Activate and Listen to the Extraordinary Voice Within",
+    author: "Janet Conner",
   },
   {
     id: "11",
-    title: "Anam Cara: A Book of Celtic Wisdom John O'Donohue",
+    title: "Anam Cara: A Book of Celtic Wisdom",
+    author: "John O'Donohue",
+  },
+  {
+    id: "12",
+    title: "A New Earth: Awakening to Your Life's Purpose",
+    author: "Eckhart Tolle",
+  },
+  {
+    id: "13",
+    title:
+      "Dying To Be Me: My Journey from Cancer, to Near Death, to True Healing",
+    author: "Anita Moorjani",
+  },
+  {
+    id: "14",
+    title:
+      "Medical Medium Liver Rescue: Answers To Eczema, Psoriasis, Diabetes, Strep, Acne, Gout, Bloating",
+    author: "Anthony William",
   },
 ];
 

@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from "react";
+import React, { Component } from "react";
 import ShadowBox from "../shadowBox";
 import LayerOne from "../layerone";
 import { NavLink } from "react-router-dom";
@@ -25,11 +25,12 @@ class Home extends Component {
             <p>curious to learn more about the unique meaning of your life?</p>
           </ShadowBox>
         </LayerOne>
-        <div>
+        <div className="col homeImg">
           <img
-            src={require("../../images/homePerson.jpg")}
+            src={require("../../images/homePro.jpg")}
             alt="logo"
             className="mx-auto d-block img-fluid"
+            width="100%"
           />
         </div>
         <div className="col homeSecondLayer layerOne learn-more">
@@ -46,12 +47,11 @@ class Home extends Component {
           <i className="hypnocol">- Alberto Villoldo</i>
           <h2 className="mt-4">ABOUT ME</h2>
           <p data-aos="fade-right" data-aos-duration="3000">
-            "My training has included the UK Hypnosis Academy, The Four Winds,
-            and EKAA, amongst others. My own experiences with hypnotherapy,
-            energy healing and other alternative health and healing modalities
-            led me to pursue these alternative therapies and explore their uses
-            in my own life expereinces. Allow me to help you explore other
-            choices for your life."
+            "I have trained with UK Hypnosis Academy, The Four Winds, and EKAA,
+            amongst others. My personal experiences with hypnotherapy, energy
+            healing and other health and healing modalities led me to see first
+            hand their power to heal. Allow me to help you explore other choices
+            for your life."
           </p>
           <p className="hypnocol mt-4">"What you seek is seeking you"</p>
           <i className="hypnocol">- Rumi</i>
@@ -68,11 +68,10 @@ class Home extends Component {
           </div>
         </div>
         <div className="homeThirdLayer layerOne learn-more">
-          <h2 className="mt-2">LET'S TALK</h2>
+          <h2 className="mt-2">CONTACT ME</h2>
           <p className="mb-4" data-aos="fade-up" data-aos-duration="3000">
-            I would love to hear from you and personally explain to you how your
-            session might help with your concerns. Simply fill out the form
-            below:
+            "I am happy to answer any questions you might have. Simply fill out
+            the form below:"
           </p>
           <ContactUs homebtn />
         </div>

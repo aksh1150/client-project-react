@@ -7,7 +7,7 @@
   --about-page-rbg: 223, 231, 103;
   --resource-page-rgb: 233, 178, 10;
   --gradiant-color: rgba(255, 255, 255, 0.1);
-
+  --deskgradiant-color: rgba(1, 1, 1, 0);
   --energy-second-layer: #cac2be;
   --books-font-color: #9da879;
 }
@@ -32,6 +32,7 @@ h5 {
 .faqCol hr {
   width: 200px;
   background-color: rgba(var(--faq-page-rgb), 1);
+  height: 1px;
 }
 
 .container-fluid {
@@ -87,13 +88,23 @@ h5 {
 .homeLayerOne {
   background-image: linear-gradient(
       to bottom,
-      rgba(var(--home-page-rgb), 1) 25%,
+      rgba(var(--home-page-rgb), 0.5) 35%,
       var(--gradiant-color)
     ),
     url("./images/homeBanner.jpg");
   background-size: cover;
 }
-
+.deskhomeLayerOne {
+  background-image: url("./images/desktop/homeBanner.jpg");
+  background-size: cover;
+}
+.homeOverlayClass {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--home-page-rgb), 1) 5%,
+    var(--deskgradiant-color) 95%
+  );
+}
 .hypnoLayerOne {
   background-image: linear-gradient(
       to bottom,
@@ -103,6 +114,23 @@ h5 {
     url("./images/hypnoBackground.jpg");
   background-size: cover;
 }
+.deskhypnoLayerOne {
+  background-image: url("./images/desktop/hypnoBanner.jpg");
+  background-size: cover;
+  height: 400px;
+}
+.hypnoOverlay {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--hypno-page-rgb), 1) 50%,
+    var(--deskgradiant-color)
+  );
+}
+.deskaboutLayerOne {
+  background-image: url("./images/desktop/aboutBanner.jpg");
+  background-size: cover;
+  height: 400px;
+}
 
 .energyLayerOne {
   background-image: linear-gradient(
@@ -110,8 +138,21 @@ h5 {
       rgba(var(--energy-page-rgb), 1) 15%,
       var(--gradiant-color) 35%
     ),
-    url("./images/energyBackground.jpg");
+    url("./images/newimg.jpg");
   background-size: cover;
+}
+.deskenergyLayerOne {
+  background-image: url("./images/desktop/energyBanner.jpg");
+  background-size: cover;
+  height: 400px;
+}
+.energyOverlay {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--energy-page-rgb), 1) 35%,
+    var(--deskgradiant-color) 95%
+  );
+  color: #222222;
 }
 .faqLayerOne {
   background-image: linear-gradient(
@@ -123,12 +164,13 @@ h5 {
 .aboutLayerOne {
   background-image: linear-gradient(
       to bottom,
-      rgba(var(--about-page-rbg), 1) 10%,
-      var(--gradiant-color) 25%
+      rgba(var(--about-page-rbg), 1) 18%,
+      var(--gradiant-color) 24%
     ),
     url("./images/aboutPerson.jpg");
   background-size: cover;
-  height: 780px;
+  background-position: center;
+  height: 840px;
 }
 .aboutContact {
   background-image: linear-gradient(
@@ -320,9 +362,11 @@ h5 {
   color: var(--books-font-color);
   text-align: center;
 }
-.container-fluid {
-  max-width: 600px !important;
-  border: 1px solid #999999;
+.mobileIpadwidth {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 .chak p {
   line-height: 18px;
@@ -399,6 +443,332 @@ hr {
   height: 10px;
   z-index: -10;
 }
+
+.country-list {
+  text-align: left;
+  color: #000;
+}
+.react-tel-input .form-control {
+  width: 100% !important;
+  padding-left: 50px !important;
+}
+.selectdiv .form-control {
+  padding: 8px 10px !important;
+}
+
+.nav-links-desktop {
+  width: 100%;
+  background-color: #ffffff;
+  align-items: center;
+  z-index: 1;
+  color: var(--books-font-color);
+  margin-top: 3.2rem;
+}
+.nav-links-desktop a {
+  color: var(--books-font-color);
+  padding: 1.5rem;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.nav-links-desktop a.active,
+.nav-links-desktop a:hover {
+  color: var(--books-font-color) !important;
+  text-decoration: none;
+}
+
+.DesklayerOne {
+  color: var(--white);
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.overlaybox {
+  padding: 80px 80px !important;
+}
+.desktopWidth {
+  max-width: 1540px;
+}
+.desktopWidth p {
+  font-size: 22px;
+  line-height: 28px;
+}
+.desktopWidth h2 {
+  font-size: 40px;
+  text-shadow: 3px 5px 7px rgba(1, 1, 1, 0.13);
+  padding-left: 0px !important;
+}
+.bannerTextDesk {
+  padding: 100px 0px 100px 100px !important;
+}
+.bannerCaption {
+  padding: 20px;
+  background-color: rgba(55, 119, 134, 0.6);
+}
+
+.deskHomePro {
+  padding: 6px 3px 0 0 !important;
+}
+.proDeskBack {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(var(--faq-page-rgb), 0.7) 100%,
+      var(--gradiant-color)
+    ),
+    url("./images/homeRock.jpg");
+  background-size: cover;
+  padding: 40px;
+  color: #ffffff;
+}
+.img-pro-fluid {
+  width: 100% !important;
+}
+
+.desktopWidth .deskButton {
+  width: 100%;
+  margin-top: 50px;
+  height: 50px;
+  font-size: 20px;
+  padding-top: 8px;
+  margin-bottom: 10px;
+}
+.desktopWidth i {
+  font-size: 16px;
+}
+.deskHomeForm {
+  padding: 0px 0px 0px 3px !important;
+}
+.homeFromBack {
+  background-color: rgba(var(--energy-page-rgb), 0.8);
+  padding: 50px 60px;
+}
+.deskContactForm {
+  color: var(--white);
+}
+.desktopWidth .selectdiv select {
+  margin: 0px 0px;
+}
+.desktopWidth .contactForm .col-md-6 {
+  padding-left: 0px !important;
+}
+.desktopWidth .form-txt {
+  height: 100px;
+}
+.desktopWidth .DeskbtnClass {
+  text-align: left;
+}
+.desktopWidth .layerOnes {
+  text-align: left;
+  padding: 0px 30px 50px 0px;
+}
+.deskHomeForm .homeFromBack {
+  min-height: 800px;
+  max-height: 800px !important;
+}
+.deskHomePro .proDeskBack {
+  min-height: 795px;
+  max-height: 800px !important;
+}
+.desktopWidth .react-tel-input .form-control,
+.desktopWidth .selectdiv select,
+.desktopWidth .form-control {
+  height: 50px;
+}
+.desktopWidth .form-txt {
+  height: 115px;
+}
+.alert {
+  padding: 2px !important;
+}
+.DeskHypnoLayTwo {
+  background-color: rgba(var(--energy-page-rgb), 0.8);
+  color: var(--white);
+  padding: 50px 60px !important;
+}
+.DeskHypnoLayTwo .DeskHelp {
+  padding-right: 70px;
+}
+.hypnoDeskDetails p {
+  line-height: 14px;
+}
+.deskEngPad {
+  padding-left: 0px !important;
+}
+.deskEnergyHealing {
+  background-color: rgba(var(--energy-page-rgb), 0.8);
+  color: var(--white);
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.engBack {
+  background-image: url("./images/desktop/deskMedi.png");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 300px 680px;
+}
+.deskEngTitle {
+  padding: 50px !important;
+}
+.deskEngPara {
+  padding: 50px 200px 50px 20px !important;
+}
+.deskEngPara a {
+  color: var(--white);
+}
+.deskEngTitle p {
+  padding: 20px 80px 20px 20px;
+  color: #222222;
+}
+.desktopWidth .chak span {
+  width: 100px;
+  position: absolute;
+  left: -60px;
+}
+.deskChakra h2 {
+  color: #cac2be;
+  margin-top: 80px;
+}
+.deskChakra p {
+  color: #053842;
+  max-width: 310px;
+}
+.deskChakra .tsorange {
+  margin-top: 20px;
+}
+.DeskFaqHead {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--faq-page-rgb), 1) 5%,
+    var(--gradiant-color) 15%
+  );
+}
+.DeskFAQLAYERCOlor {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--faq-page-rgb), 1) 15%,
+    var(--gradiant-color) 55%
+  );
+  padding: 10px 50px;
+}
+.DeskFaqHead h2 {
+  color: var(--white);
+  text-align: center;
+  padding: 50px;
+}
+.DeskFaqQA {
+  padding-right: 180px !important;
+}
+.DeskFaqQA h5 {
+  color: var(--white);
+  padding: 50px 10px 10px;
+}
+.DeskFAQLAYERCOlor h5 {
+  padding: 30px 10px 2px;
+}
+.DeskFaqQA hr {
+  width: 100%;
+  background-color: #c76daf;
+  background-color: rgba(var(--faq-page-rgb), 1);
+  height: 1px;
+}
+.DeskFaqQA .faqLink {
+  text-align: center;
+}
+.DeskFaqQA .layerOnes label {
+  text-align: left;
+}
+.sp {
+  display: flex;
+  justify-content: space-around;
+}
+.comonents {
+  max-width: 600px;
+  border: 1px solid #999999;
+}
+.deskaboutLayerOne p,
+.deskaboutLayerOne i {
+  color: #043842;
+}
+.DeskAbout {
+  padding: 0px !important;
+}
+.DeskAbout .blackglass {
+  background-color: var(--white);
+  text-align: left;
+  color: #3a5a48;
+  padding: 50px;
+}
+.DeskAbout .blackglass a {
+  color: #3a5a48;
+}
+.DeskProfAbout {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.DeskAboutBack {
+  background-color: rgba(var(--about-page-rbg), 1);
+  padding: 30px 50px !important;
+  color: #3a5a48;
+}
+.DeskAboutBack h2 {
+  color: var(--white);
+}
+.DeskRespurces {
+  padding-top: 60px;
+}
+
+.DeskResourceBack {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--resource-page-rgb), 1) 55%,
+    var(--gradiant-color)
+  );
+  padding-bottom: 80px;
+}
+.DeskRespurces h2 {
+  text-align: center;
+  color: var(--white);
+}
+.DeskRespurces p {
+  text-align: left;
+}
+.DeskbookList .websites {
+  color: rgba(var(--resource-page-rgb), 1);
+  background-color: var(--white);
+  text-align: left;
+}
+.DeskbookList .websites a {
+  color: rgba(var(--resource-page-rgb), 1);
+}
+.DeskAuthor {
+  color: #d14e09;
+}
+.DeskBookTitle,
+.DeskBookTitle a {
+  color: #9da879;
+}
+.Deskvideos {
+  background-color: rgba(var(--resource-page-rgb), 1);
+}
+.Deskvideos {
+  padding: 50px 70px !important;
+  color: var(--white);
+}
+.Deskvideos iframe {
+  height: 240px;
+  width: 100%;
+}
+.homeImg {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.aboutLayerOne {
+  height: 1140px;
+}
+@media only screen and (max-width: 1400px) {
+  .overlaybox {
+    padding: 50px 50px !important;
+  }
+}
 @media only screen and (max-width: 800px) {
   .bg-primary-color {
     text-align: center;
@@ -409,9 +779,6 @@ hr {
   }
   .layerOne {
     padding: 25px 30px 50px 30px;
-  }
-  .lastch:nth-last-child(4) {
-    padding: 0px 100px;
   }
   .navbar {
     top: -17px;
@@ -436,6 +803,11 @@ hr {
   }
   .text {
     font-size: 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .aboutLayerOne {
+    height: 840px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -471,4 +843,56 @@ hr {
   .videos iframe {
     height: 140px;
   }
+}
+.selectdiv {
+  position: relative;
+  /*Don't really need this just for demo styling*/
+}
+
+/* IE11 hide native button (thanks Matt!) */
+select::-ms-expand {
+  display: none;
+}
+
+.selectdiv:after {
+  content: "\2759\276F";
+  font-size: 17px;
+
+  color: #222222;
+  -webkit-transform: scale(1.2, 1) rotate(90deg);
+  -moz-transform: scale(1.2, 1) rotate(90deg);
+  -ms-transform: scale(1.2, 1) rotate(90deg);
+  transform: scale(1.2, 1) rotate(90deg);
+  transform: scale(1.2, 1) rotate(90deg);
+  right: 11px;
+  /*Adjust for position however you want*/
+  font-weight: 900;
+  top: 8px;
+  padding: 0 0 1px;
+  /*left line */
+  transition: ease-in-out 0.5s;
+  position: absolute;
+  pointer-events: none;
+}
+.open:after {
+  transform: scale(1.2, 1) rotate(270deg);
+}
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add some styling */
+  height: 43px;
+  display: block;
+  width: 100%;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #222222;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  -ms-word-break: normal;
+  word-break: normal;
 }
