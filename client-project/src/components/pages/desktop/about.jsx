@@ -77,17 +77,7 @@ class DeskAbout extends Component {
                         Stephen Feely
                       </a>
                     </u>
-                    , <u>Moritz Reimann</u>,{" "}
-                    <u>
-                      <a
-                        href="https://sites.google.com/site/urgesundenglish/ueber-mich"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Dirk Zschocke
-                      </a>
-                    </u>
-                    ,{" "}
+                    , Moritz Reimann, Dirk Zschocke,{" "}
                     <u>
                       <a
                         href="https://www.isabella-marker.com/"
@@ -134,7 +124,7 @@ class DeskAbout extends Component {
                   in Dubai
                   <br />
                   <i>
-                    My teachers: <u>Yuvraj Kapadia</u>,{" "}
+                    My teachers: Yuvraj Kapadia,{" "}
                     <u>
                       <a
                         href="//essentiawellbeing.com/about"
@@ -144,7 +134,17 @@ class DeskAbout extends Component {
                         Sherebanu Katawala
                       </a>
                     </u>
-                    , <u>Irina Khanna</u> and <u>Zankhana Mistry</u>
+                    ,{" "}
+                    <u>
+                      <a
+                        href="https://illuminations.ae/our-team/irina-khanna_trashed/29_irina-min/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Irina Khanna
+                      </a>
+                    </u>{" "}
+                    and Zankhana Mistry
                   </i>
                   <br />-
                 </p>

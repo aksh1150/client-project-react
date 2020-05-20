@@ -49,9 +49,9 @@ class Home extends Component {
           <p data-aos="fade-right" data-aos-duration="3000">
             "I have trained with UK Hypnosis Academy, The Four Winds, and EKAA,
             amongst others. My personal experiences with hypnotherapy, energy
-            healing and other health and healing modalities led me to see first
-            hand their power to heal. Allow me to help you explore other choices
-            for your life."
+            healing and other health and healing modalities enabled me to see
+            first hand their power to heal. Allow me to help you explore other
+            choices for your life."
           </p>
           <p className="hypnocol mt-4">"What you seek is seeking you"</p>
           <i className="hypnocol">- Rumi</i>

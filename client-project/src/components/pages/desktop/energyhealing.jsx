@@ -34,7 +34,7 @@ class Deskenergy extends Component {
                 <div className="col-md-6 deskEngPara">
                   <p>
                     This work is healing on a deep energetic level, a way to
-                    connect to your Luminous Energy Field (LEF) through shamanic
+                    connect to your Luminous Energy Field through shamanic
                     practices. We are healing our past and even our future, so
                     we can live in the present. Come with an open mind to
                     experience extraordinary growth and healing in a safe and
@@ -50,7 +50,7 @@ class Deskenergy extends Component {
                       >
                         The Four Winds
                       </a>
-                    </u>{" "}
+                    </u>
                     . My teachers:{" "}
                     <u>
                       <a
@@ -81,27 +81,7 @@ class Deskenergy extends Component {
                         Stephen Feely
                       </a>
                     </u>
-                    ,{" "}
-                    <u>
-                      <a
-                        href="https://thefourwinds.com/about-us/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Moritz Reimann
-                      </a>
-                    </u>
-                    ,{" "}
-                    <u>
-                      <a
-                        href="https://sites.google.com/site/urgesundenglish/ueber-mich"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Dirk Zschocke
-                      </a>
-                    </u>
-                    ,{" "}
+                    , Moritz Reimann, Dirk Zschocke,{" "}
                     <u>
                       <a
                         href="https://www.isabella-marker.com/"

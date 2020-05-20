@@ -109,6 +109,15 @@ class Resources extends Component {
               </p>
               <p>
                 <a
+                  href="https://www.drnorthrup.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Christiane Northrup
+                </a>
+              </p>
+              <p>
+                <a
                   href="https://deborahking.com/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -118,31 +127,14 @@ class Resources extends Component {
               </p>
               <p>
                 <a
-                  href="https://www.drnorthrup.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Dr Christiane Northrup
-                </a>
-              </p>
-              <p>
-                <a
                   href="https://drjoedispenza.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Dr Joe Dispenza
+                  Joe Dispenza
                 </a>
               </p>
-              <p>
-                <a
-                  href="//ntiawellbeing.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Essentia Well Being Center
-                </a>
-              </p>
+              <p>Essentia Well Being Center</p>
               <p>
                 <a
                   href="https://globalhealing.com/"

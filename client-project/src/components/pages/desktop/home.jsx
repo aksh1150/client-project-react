@@ -44,9 +44,9 @@ class HomeDesk extends Component {
             <p>
               "I have trained with UK Hypnosis Academy, The Four Winds, and
               EKAA, amongst others. My personal experiences with hypnotherapy,
-              energy healing and other health and healing modalities led me to
-              see first hand their power to heal. Allow me to help you explore
-              other choices for your life."
+              energy healing and other health and healing modalities enabled me
+              to see first hand their power to heal. Allow me to help you
+              explore other choices for your life."
             </p>
             <p>
               "What you seek is seeking you" <i>- Rumi</i>
@@ -76,9 +76,8 @@ class HomeDesk extends Component {
                 data-aos="fade-up"
                 data-aos-duration="3000"
               >
-                "I would love to hear from you and personally explain to you how
-                your session might help with your concerns. Simply fill out the
-                form below:"
+                "I am happy to answer any questions you might have. Simply fill
+                out the form below:"
               </p>
               <ContactUs homebtn />
             </div>
