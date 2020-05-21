@@ -38,7 +38,11 @@ class Deskenergy extends Component {
                     practices. We are healing our past and even our future, so
                     we can live in the present. Come with an open mind to
                     experience extraordinary growth and healing in a safe and
-                    nuturing space.
+                    nuturing space. This work can also assist with the same
+                    issues as hypnotherapy, but we would be approaching your
+                    situation differently. I often work with clients using both
+                    hypnotherapy and energy healing, as they have a synergistic
+                    benefit.
                   </p>
                   <p>
                     I have trained with{" "}
@@ -140,7 +144,7 @@ class Deskenergy extends Component {
                 </span>
                 <p className="pl-4">My inner wisdom guides me</p>
               </div>
-              <div className="chak pt-4 mt-3">
+              <div className="chak pt-4 mt-3 pb-4">
                 <span
                   className="chakras tsblue"
                   data-aos="fade-up"
@@ -164,7 +168,7 @@ class Deskenergy extends Component {
                 </span>
                 <p className="pl-4">I love and accept myself and others</p>
               </div>
-              <div className="chak pt-4 mt-4">
+              <div className="chak pt-2">
                 <span
                   className="chakras tsyellow"
                   data-aos="fade-up"
@@ -175,7 +179,7 @@ class Deskenergy extends Component {
                 </span>
                 <p className="pl-4">I take charge of my life</p>
               </div>
-              <div className="chak pt-4 mt-4">
+              <div className="chak pt-1 mt-4">
                 <span
                   className="chakras tsorange"
                   data-aos="fade-up"
@@ -186,7 +190,7 @@ class Deskenergy extends Component {
                 </span>
                 <p className="pl-4 pt-3">I am open to all worldly pleasures</p>
               </div>
-              <div className="chak mt-2">
+              <div className="chak mt-4">
                 <span
                   className="chakras tsred"
                   data-aos="fade-up"

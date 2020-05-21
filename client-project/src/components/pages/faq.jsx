@@ -39,33 +39,7 @@ class Faq extends Component {
             <hr />
           </div>
         </LayerOne>
-        <div className="layerOnes faqtxtcol">
-          <label className="pr-4 pl-4">
-            Some short videos for your further information:
-          </label>
-          <p className="faqLink pt-2 pb-2">
-            <a
-              href="https://www.youtube.com/watch?v=ZXavV72msZY"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="faqtxtcol"
-            >
-              What is hypnotherapy and how does hypnotherapy work?
-            </a>
-          </p>
-          <p className="faqLink pt-2 pb-2">
-            <a
-              href="https://www.youtube.com/watch?v=Uvf8b2Oyad8"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="faqtxtcol"
-            >
-              What is Hypnosis?
-              <br />
-              Conscious Mind vs Sub-conscious Mind
-            </a>
-          </p>
-        </div>
+
         <LayerOne faqLaterOne>
           <div className="faqCol">
             <h5>CAN I BE HYPNOTISED AGAINST MY WILL?</h5>
@@ -106,6 +80,24 @@ class Faq extends Component {
             <hr />
           </div>
         </LayerOne>
+        <div className="layerOnes faqtxtcol">
+          <label className="pr-4 pl-4">
+            A short video for your further information:
+          </label>
+
+          <p className="faqLink pt-2 pb-2">
+            <a
+              href="https://www.youtube.com/watch?v=Uvf8b2Oyad8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="faqtxtcol"
+            >
+              What is Hypnosis?
+              <br />
+              Conscious Mind vs Sub-conscious Mind
+            </a>
+          </p>
+        </div>
       </div>
     );
   }

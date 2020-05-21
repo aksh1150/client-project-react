@@ -69,9 +69,19 @@ const BOOKS_DATA = [
   },
   {
     id: "14",
+    title: "You Can Heal Your Life",
+    author: "Louise Hay",
+  },
+  {
+    id: "15",
+    title: "The Convoluted Universe: The Convoluted Universe series",
+    author: "Dolores Cannon",
+  },
+  {
+    id: "16",
     title:
-      "Medical Medium Liver Rescue: Answers To Eczema, Psoriasis, Diabetes, Strep, Acne, Gout, Bloating",
-    author: "Anthony William",
+      "Same Soul, Many Bodies: Discover the Healing Power of Future Lives through Progression",
+    author: "Brian Weiss",
   },
 ];
 

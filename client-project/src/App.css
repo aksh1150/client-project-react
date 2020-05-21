@@ -600,7 +600,7 @@ hr {
 }
 .engBack {
   background-image: url("./images/desktop/deskMedi.png");
-  height: 700px;
+  height: 860px;
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 300px 680px;
@@ -609,7 +609,7 @@ hr {
   padding: 50px !important;
 }
 .deskEngPara {
-  padding: 50px 200px 50px 20px !important;
+  padding: 50px 180px 50px 0px !important;
 }
 .deskEngPara a {
   color: var(--white);
@@ -772,6 +772,9 @@ hr {
 @media only screen and (max-width: 1300px) {
   .deskChakra p {
     font-size: 19px;
+  }
+  .deskEngPara {
+    padding: 50px 140px 50px 0px !important;
   }
 }
 @media only screen and (max-width: 800px) {

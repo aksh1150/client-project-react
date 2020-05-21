@@ -97,7 +97,15 @@ class DeskResources extends Component {
                   Joe Dispenza
                 </a>
               </p>
-              <p>Essentia Well Being Center</p>
+              <p>
+                <a
+                  href="http://essentiawellbeing.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Essentia Wellbeing Center
+                </a>
+              </p>
               <p>
                 <a
                   href="https://globalhealing.com/"
@@ -131,7 +139,7 @@ class DeskResources extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Illuminations Well Being Center
+                  Illuminations Wellbeing Center
                 </a>
               </p>
               <p>

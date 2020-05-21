@@ -36,38 +36,7 @@ class DeskFaq extends Component {
                 scripts, hypnotherapy allows for changes to our emotional,
                 behavioural, attitudinal and spiritual selves to take place.
               </p>
-              <hr />
-              <div className="layerOnes faqtxtcol">
-                <label className="pr-4 pl-4">
-                  Some short videos for your further information:
-                </label>
-                <div className="row">
-                  <div className="col-md-6 sp">
-                    <p className="faqLink pt-2 p-4">
-                      <a
-                        href="https://www.youtube.com/watch?v=ZXavV72msZY"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="faqtxtcol"
-                      >
-                        What is hypnotherapy and how does hypnotherapy work?
-                      </a>
-                    </p>
-                  </div>
-                  <div className="col-md-6 sp">
-                    <p className="faqLink pt-2 p-4">
-                      <a
-                        href="https://www.youtube.com/watch?v=Uvf8b2Oyad8"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="faqtxtcol"
-                      >
-                        What is Hypnosis? Conscious Mind vs Sub-conscious Mind
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
+
               <div className="DeskFAQLAYERCOlor mb-4">
                 <h5>CAN I BE HYPNOTISED AGAINST MY WILL?</h5>
                 <p className="hypnocol">
@@ -105,6 +74,26 @@ class DeskFaq extends Component {
                   Afterwards, we will reflect on the experience together and
                   decide on the next steps in your healing journey.
                 </p>
+              </div>
+              <hr />
+              <div className="layerOnes faqtxtcol">
+                <label className="pr-4 pl-4">
+                  A short video for your further information:
+                </label>
+                <div className="row">
+                  <div className="col-md-6 sp">
+                    <p className="faqLink pt-2 p-4">
+                      <a
+                        href="https://www.youtube.com/watch?v=Uvf8b2Oyad8"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="faqtxtcol"
+                      >
+                        What is Hypnosis? Conscious Mind vs Sub-conscious Mind
+                      </a>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

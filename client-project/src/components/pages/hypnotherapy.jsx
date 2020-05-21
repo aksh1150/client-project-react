@@ -21,7 +21,7 @@ class Hypnotherapy extends Component {
               <p>Addictions</p>
               <p>Anger Management</p>
               <p>Anxiety</p>
-              <p>Asthma if triggered by stress</p>
+              <p>Asthma</p>
               <p>Confidence/Motivation/Self-Esteem</p>
               <p>Confusion about Life Purpose</p>
               <p>Depression</p>
@@ -35,7 +35,7 @@ class Hypnotherapy extends Component {
               <p>Pain Control</p>
               <p>Panic Attacks</p>
               <p>Phobias (fear of flying, spiders, etc.)</p>
-              <p>Psoriasis if caused through stress</p>
+              <p>Psoriasis</p>
               <p>Quit Smoking</p>
               <p>Sexual Abuse</p>
               <p>Sports/Work Performance and Enhancement</p>
