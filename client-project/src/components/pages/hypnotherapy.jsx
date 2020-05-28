@@ -26,9 +26,9 @@ class Hypnotherapy extends Component {
               <p>Confusion about Life Purpose</p>
               <p>Depression</p>
               <p>Eating Disorders</p>
-              <p>Eczema from stress and anxiety</p>
+              <p>Eczema</p>
               <p>Insomnia</p>
-              <p>Irritable Bowel Syndrome stress</p>
+              <p>Irritable Bowel Syndrome</p>
 
               <p>Migraines</p>
               <p>Obessive Compulsive Disorder</p>

@@ -47,7 +47,7 @@ class Home extends Component {
           <i className="hypnocol">- Alberto Villoldo</i>
           <h2 className="mt-4">ABOUT ME</h2>
           <p data-aos="fade-right" data-aos-duration="3000">
-            "I have trained with UK Hypnosis Academy, The Four Winds, and EKAA,
+            "I have trained with The Four Winds, EKAA, and UK Hypnosis Academy,
             amongst others. My personal experiences with hypnotherapy, energy
             healing and other health and healing modalities enabled me to see
             first hand their power to heal. Allow me to help you explore other
@@ -71,7 +71,7 @@ class Home extends Component {
           <h2 className="mt-2">CONTACT ME</h2>
           <p className="mb-4" data-aos="fade-up" data-aos-duration="3000">
             "I am happy to answer any questions you might have. Simply fill out
-            the form below:"
+            the form below":
           </p>
           <ContactUs homebtn />
         </div>

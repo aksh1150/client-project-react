@@ -56,15 +56,6 @@ class DeskFaq extends Component {
                   anything that you feel is against your core values and your
                   will.
                 </p>
-              </div>
-              <div className="DeskFAQLAYERCOlor mt-4">
-                <h5>WHAT TO EXPECT DURING A SESSION?</h5>
-                <p className="hypnocol">
-                  "Almost everything will work again if you unplug it for a few
-                  minutes, including you."
-                  <i className="hypnocol">- Anne Lamott</i>
-                </p>
-
                 <p className="faqtxtcol pt-4">
                   In your first session, you will complete a questionnaire, then
                   we will take some time to discuss and identify the issue,

@@ -237,7 +237,7 @@ class AboutMe extends Component {
           </div>
           <p className="hypnocol aboutForm p-4">
             "I am happy to answer any questions you might have. Simply fill out
-            the form below:"
+            the form below":
           </p>
           <ContactUs aboutbtn />
         </div>

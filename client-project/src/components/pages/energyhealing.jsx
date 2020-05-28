@@ -12,7 +12,7 @@ class EnergyHealing extends Component {
       <div className="container-fluid">
         <LayerOne energyLayerOne>
           <ShadowBox energyBox>
-            <h2>ENERGY HEALING/ ENERGY MEDICINE &amp; CRYSTAL HEALING</h2>
+            <h2>ENERGY HEALING/ENERGY MEDICINE &amp; CRYSTAL HEALING</h2>
             <p className="hypnocol mt-4">
               "We have to become still in the midst of the turmoil so we can
               observe clearly how our actions and the actions of others, past
@@ -26,11 +26,13 @@ class EnergyHealing extends Component {
               to your Luminous Energy Field through shamanic practices. We are
               healing our past and even our future, so we can live in the
               present. Come with an open mind to experience extraordinary growth
-              and healing in a safe and nuturing space. This work can also
-              assist with the same issues as hypnotherapy, but we would be
-              approaching your situation differently. I often work with clients
-              using both hypnotherapy and energy healing, as they have a
-              synergistic benefit.
+              and healing in a safe and nurturing space.
+            </p>
+            <p>
+              This work can also assist with the same issues as hypnotherapy,
+              but we would be approaching your situation differently. I often
+              work with clients using both hypnotherapy and energy healing, as
+              they have a synergistic benefit.
             </p>
             <p className="pb-4">
               I have trained with{" "}

@@ -249,7 +249,7 @@ class DeskAbout extends Component {
               </p>
               <p className="hypnocol pt-4 mt-4">
                 "I am happy to answer any questions you might have. Simply fill
-                out the form below:"
+                out the form below":
               </p>
               <ContactUs aboutbtn />
             </div>

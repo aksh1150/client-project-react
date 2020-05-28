@@ -38,9 +38,12 @@ class Deskenergy extends Component {
                     practices. We are healing our past and even our future, so
                     we can live in the present. Come with an open mind to
                     experience extraordinary growth and healing in a safe and
-                    nuturing space. This work can also assist with the same
-                    issues as hypnotherapy, but we would be approaching your
-                    situation differently. I often work with clients using both
+                    nurturing space.
+                  </p>
+                  <p>
+                    This work can also assist with the same issues as
+                    hypnotherapy, but we would be approaching your situation
+                    differently. I often work with clients using both
                     hypnotherapy and energy healing, as they have a synergistic
                     benefit.
                   </p>

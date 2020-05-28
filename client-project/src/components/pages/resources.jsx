@@ -59,19 +59,9 @@ class Resources extends Component {
               <p className="DeskAuthor">{book.author}</p>
             </div>
           ))}
-          <div className="col-12">
-            <p>
-              Notable authors:
-              <br />
-              All books by Dolores Cannon
-              <br />
-              All books by Brain Weiss
-              <br />A New Earth by Eckhart Tolle
-            </p>
-          </div>
           <div className="col-12 websites mt-4">
             <h4>
-              Websites
+              Recommended Websites
               <p className="pt-4">
                 <a
                   href="https://acim.org/"
@@ -128,15 +118,6 @@ class Resources extends Component {
               </p>
               <p>
                 <a
-                  href="https://drjoedispenza.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Joe Dispenza
-                </a>
-              </p>
-              <p>
-                <a
                   href="http://essentiawellbeing.com/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -178,6 +159,15 @@ class Resources extends Component {
                   rel="noopener noreferrer"
                 >
                   Illuminations Wellbeing Center
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://drjoedispenza.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Joe Dispenza
                 </a>
               </p>
               <p>

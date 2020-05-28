@@ -58,16 +58,6 @@ class Faq extends Component {
               control at all times. You cannot do anything that you feel is
               against your core values and your will.
             </p>
-          </div>
-        </LayerOne>
-        <LayerOne faqLaterOne>
-          <div className="faqCol">
-            <h5>WHAT TO EXPECT DURING A SESSION?</h5>
-            <p className="hypnocol">
-              "Almost everything will work again if you unplug it for a few
-              minutes, including you."
-            </p>
-            <i className="hypnocol">- Anne Lamott</i>
             <p className="faqtxtcol pt-4">
               In your first session, you will complete a questionnaire, then we
               will take some time to discuss and identify the issue, followed by
@@ -77,7 +67,6 @@ class Faq extends Component {
               experience together and decide on the next steps in your healing
               journey.
             </p>
-            <hr />
           </div>
         </LayerOne>
         <div className="layerOnes faqtxtcol">

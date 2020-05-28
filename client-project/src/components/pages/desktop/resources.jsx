@@ -33,7 +33,7 @@ class DeskResources extends Component {
         <div className="row DeskbookList">
           <div className="col-lg-4 websites mt-4">
             <h4>
-              Websites
+              Recommended Websites
               <p className="pt-4">
                 <a
                   href="https://acim.org/"
@@ -90,15 +90,6 @@ class DeskResources extends Component {
               </p>
               <p>
                 <a
-                  href="https://drjoedispenza.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Joe Dispenza
-                </a>
-              </p>
-              <p>
-                <a
                   href="http://essentiawellbeing.com/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -140,6 +131,15 @@ class DeskResources extends Component {
                   rel="noopener noreferrer"
                 >
                   Illuminations Wellbeing Center
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://drjoedispenza.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Joe Dispenza
                 </a>
               </p>
               <p>

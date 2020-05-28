@@ -164,13 +164,12 @@ h5 {
 .aboutLayerOne {
   background-image: linear-gradient(
       to bottom,
-      rgba(var(--about-page-rbg), 1) 18%,
-      var(--gradiant-color) 24%
+      rgba(var(--about-page-rbg), 1) 9%,
+      var(--gradiant-color) 16%
     ),
     url("./images/aboutPerson.jpg");
   background-size: cover;
-  background-position: center;
-  height: 840px;
+  background-position: bottom;
 }
 .aboutContact {
   background-image: linear-gradient(
@@ -762,7 +761,7 @@ hr {
   padding-right: 0px !important;
 }
 .aboutLayerOne {
-  height: 1140px;
+  height: 1080px;
 }
 @media only screen and (max-width: 1400px) {
   .overlaybox {
@@ -813,9 +812,28 @@ hr {
     font-size: 30px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
+  .aboutLayerOne {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(var(--about-page-rbg), 1) 20vw,
+        var(--gradiant-color) 32vw
+      ),
+      url("./images/aboutPerson.jpg");
+    height: 182vw;
+  }
+}
+
+@media only screen and (max-width: 460px) {
   .aboutLayerOne {
     height: 840px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(var(--about-page-rbg), 1) 18%,
+        var(--gradiant-color) 24%
+      ),
+      url("./images/aboutPerson.jpg");
+    background-position: center;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -850,6 +868,11 @@ hr {
   }
   .videos iframe {
     height: 140px;
+  }
+}
+@media only screen and (max-width: 290px) {
+  .layerOne {
+    padding: 2px 0px 50px 0px !important;
   }
 }
 .selectdiv {
