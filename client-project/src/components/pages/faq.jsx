@@ -14,7 +14,7 @@ class Faq extends Component {
             </p>
             <i className="hypnocol">- Agnes Repplier</i>
             <p className="faqtxtcol pt-4">
-              The term "hypnosis" comes from the acient Greek word "hypnos",
+              The term "hypnosis" comes from the ancient Greek word "hypnos",
               meaning "sleep". Hypnosis is a natural state of deep relaxation
               and increased awareness. We all naturally enter this state at
               least twice every day: just before we go to sleep and just before
@@ -57,15 +57,6 @@ class Faq extends Component {
               for it to work. It is important to remember that you are in
               control at all times. You cannot do anything that you feel is
               against your core values and your will.
-            </p>
-            <p className="faqtxtcol pt-4">
-              In your first session, you will complete a questionnaire, then we
-              will take some time to discuss and identify the issue, followed by
-              a short discussion of what hypnotherapy is about and what it can
-              achieve. After that, I will do a short hypnosis on you so you can
-              experience it for yourself. Afterwards, we will reflect on the
-              experience together and decide on the next steps in your healing
-              journey.
             </p>
           </div>
         </LayerOne>
