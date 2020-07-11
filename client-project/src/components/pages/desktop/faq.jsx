@@ -25,7 +25,7 @@ class DeskFaq extends Component {
                 remembering entirely how you got there. Again, you have entered
                 the hypnotic state easily and naturally.
               </p>
-              <p className="faqtxtcol mb-4 pb-3">
+              <p className="faqtxtcol mb-3 pb-1">
                 Hypnotherapy is a way of bypassing the conscious, critical,
                 thinking mind to speak directly to the subconscious mind.
                 Hypnosis involves focused attention, reduced peripheral
@@ -36,12 +36,12 @@ class DeskFaq extends Component {
                 scripts, hypnotherapy allows for changes to our emotional,
                 behavioural, attitudinal and spiritual selves to take place.
               </p>
-              <p className="faqtxtcol pt-4 text-center">
+              <p className="faqtxtcol text-center">
                 <b>During hypnotherapy you are always in control.</b>
               </p>
               <hr />
 
-              <div className="DeskFAQLAYERCOlor mb-4">
+              <div className="DeskFAQLAYERCOlor mb-4 mt-4">
                 <h5>CAN I BE HYPNOTISED AGAINST MY WILL?</h5>
                 <p className="hypnocol">
                   "Between thinking and seeing, there is a place called
@@ -62,7 +62,7 @@ class DeskFaq extends Component {
                 </p>
               </div>
               <hr />
-              <div className="layerOnes faqtxtcol">
+              <div className="layerOnes faqtxtcol mt-4">
                 <label className="pr-4 pl-4">
                   A short video for your further information:
                 </label>
