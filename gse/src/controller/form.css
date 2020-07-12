@@ -1,0 +1,14 @@
+.desktopWidth .form-control,
+.desktopWidth .react-tel-input .form-control,
+.desktopWidth .selectdiv select {
+  height: 50px;
+}
+.form-control {
+  border-radius: 0 !important;
+  padding: 20px 15px !important;
+}
+
+.react-tel-input .form-control {
+  width: 100% !important;
+  padding-left: 45px !important;
+}

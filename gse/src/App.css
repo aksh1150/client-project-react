@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
+.main-section {
+  height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --primary-color: #0461af;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: futura;
+  src: url("./fonts/futura_light.ttf");
+}
+body {
+  font-family: futura !important;
+}
+h2 {
+  color: #444444;
+  font-size: 40px !important;
+  font-weight: 600 !important;
+}
+.logo {
+  z-index: 9999 !important;
+}
+.nav-link {
+  font-size: 20px;
+  padding: 5px 30px !important;
+}
+.navbar-nav .nav-link.active {
+  background-color: var(--primary-color);
+  color: var(--white) !important;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/banner.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+nav {
+  background-color: var(--white) !important;
+  box-shadow: 0px 0px 8px 2px #000000;
+}
+.imgOverlay {
+  position: absolute;
+  top: 40vh;
+}
+.imgOverlay h1 {
+  font-size: 50px;
+  color: var(--white);
+}
+.btn-gse {
+  color: var(--white) !important;
+  background-color: var(--primary-color) !important;
+  letter-spacing: 2px;
+  font-size: 20px !important;
+  border-radius: 0px !important;
+  font-weight: 600 !important;
+}
+.btn-gse:hover {
+  color: var(--primary-color) !important;
+  background-color: var(--white) !important;
+  border-color: var(--primary-color);
+}
+.btn-gse-inverse {
+  background-color: var(--white) !important;
+  color: var(--primary-color) !important;
+}
+.havc {
+  height: auto;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+}
+.havc {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("./images/services.jpg");
+  height: auto;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  width: 80%;
+  position: relative;
+}
+.box {
+  border: 1px solid #999999;
+  padding: 25px;
+  height: 250px;
+  margin: 40px;
+  background-color: var(--white);
+}
+a:hover {
+  cursor: pointer;
+}
+#about,
+#contact {
+  background-color: var(--primary-color);
+}
+.about h2 {
+  color: var(--white);
+}
+.about {
+  padding: 50px 140px 0px;
+}
+.about p {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 50px;
+}
+.about ul li {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 18px;
+}
+.approch p,
+.approch h2 {
+  color: #444444;
+}
+.approc {
+  background-color: #f1f1f1;
+}
+.bg-darks {
+  background-color: #000000 !important;
+}
+@media only screen and (max-width: 1300px) {
+  .about {
+    padding: 10px 20px 0px;
+  }
+  .about p {
+    margin-top: 10px;
+    font-size: 16px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 800px) {
+  .box {
+    margin: 5px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media only screen and (max-width: 600px) {
+  .imgOverlay h1 {
+    font-size: 30px;
+  }
+  .bg-darks p {
+    text-align: center !important;
   }
 }
