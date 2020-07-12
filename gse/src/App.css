@@ -7,6 +7,7 @@
 @font-face {
   font-family: futura;
   src: url("./fonts/futura_light.ttf");
+  font-display: swap;
 }
 body {
   font-family: futura !important;
@@ -96,19 +97,19 @@ a:hover {
 #contact {
   background-color: var(--primary-color);
 }
-.about h2 {
+.abouts h2 {
   color: var(--white);
 }
-.about {
+.abouts {
   padding: 50px 140px 0px;
 }
-.about p {
+.abouts p {
   color: var(--white);
   font-weight: 500;
   font-size: 18px;
   margin-top: 50px;
 }
-.about ul li {
+.abouts ul li {
   color: var(--white);
   font-weight: 500;
   font-size: 18px;
@@ -124,10 +125,10 @@ a:hover {
   background-color: #000000 !important;
 }
 @media only screen and (max-width: 1300px) {
-  .about {
+  .abouts {
     padding: 10px 20px 0px;
   }
-  .about p {
+  .abouts p {
     margin-top: 10px;
     font-size: 16px;
   }

@@ -5,7 +5,7 @@ class About extends Component {
       <div className="container-fluid about">
         <div className="row" id="about">
           <div className="col-sm-6 p-4">
-            <div className="about">
+            <div className="abouts">
               <h2>About us</h2>
               <p>
                 The GLOBAL SMART ENGINEERING is professional Designing firm
@@ -51,7 +51,7 @@ class About extends Component {
             />
           </div>
           <div className="col-sm-6 p-4">
-            <div className="about approch">
+            <div className="abouts approch">
               <h2>Our approach</h2>
               <p>
                 The professional staff at Global Smart engineering has been

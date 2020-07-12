@@ -44,7 +44,10 @@ class Contact extends Component {
                   </div>
                   <div className="col-sm-6 text-center">
                     <FontAwesomeIcon icon={faPhone} size="2x" color="#ffffff" />
-                    <p className="pt-4 text-white pb-4">647-893-6832</p>
+                    <p className="pt-4 text-white pb-4">
+                      Jawdet Arif P.Eng <br />
+                      647-893-6832
+                    </p>
                   </div>
                   <div className="col-sm-12 p-4">
                     <img

@@ -6,7 +6,7 @@ class Home extends Component {
       <div className="hero-image" id="home">
         <div className="container">
           <div className="row">
-            <div className="col-sm-8 imgOverlay">
+            <div className="col-sm-8 col-lg-6 col-xl-4 imgOverlay">
               <h1>
                 Delivering best engineering design for HAVC, Plumbing, and Fire
                 Protection for Commercial and Residential Buildings.
