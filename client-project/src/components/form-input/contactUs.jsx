@@ -192,7 +192,7 @@ class ContactUs extends Component {
             </div>
             <ReCAPTCHA
               className="col-lg-12"
-              sitekey="6LdZ9OwUAAAAAOpV0E67OjGcxWOrwc28qeAy87Hx"
+              sitekey="6LdHqwEVAAAAAEUyEQYDXYiSK6XN-1fJL2kodNf3"
               onChange={this.onChange}
             />
             <div className="form-group col-12 DeskbtnClass">
