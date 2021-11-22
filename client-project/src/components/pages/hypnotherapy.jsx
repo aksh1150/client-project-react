@@ -36,12 +36,10 @@ class Hypnotherapy extends Component {
               <p>Panic Attacks</p>
               <p>Phobias (fear of flying, spiders, etc.)</p>
               <p>Psoriasis</p>
-              <p>Quit Smoking</p>
-              <p>Sexual Abuse</p>
               <p>Sports/Work Performance and Enhancement</p>
               <p>Stammering</p>
 
-              <p>Stress/Anxieties</p>
+              <p>Stress</p>
               <p>Weight Loss</p>
             </div>
           </ShadowBox>

@@ -175,7 +175,7 @@ class EnergyHealing extends Component {
                 </span>
                 <p>I take charge of my life</p>
               </div>
-              <div className="chak pt-4">
+              <div className="chak pt-4 mt-3">
                 <span
                   className="chakras tsorange"
                   data-aos="fade-up"
@@ -184,7 +184,7 @@ class EnergyHealing extends Component {
                 >
                   Sacral
                 </span>
-                <p>I am open to all worldly pleasures</p>
+                <p>I enjoy my life</p>
               </div>
               <div className="chak pt-2">
                 <span

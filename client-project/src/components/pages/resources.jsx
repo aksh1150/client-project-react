@@ -27,19 +27,6 @@ class Resources extends Component {
         <div className="row justify-content-md-center bookList">
           <div className="col-12">
             <h4>Books</h4>
-            <p className="pr-4 pl-4">
-              can be ordered through{" "}
-              <u>
-                <a
-                  href="https://magrudy.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  magrudy.com
-                </a>
-              </u>{" "}
-              bookstore in Dubai
-            </p>
           </div>
           {this.state.getBooks.map((book) => (
             <div

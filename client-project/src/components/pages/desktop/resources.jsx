@@ -167,19 +167,6 @@ class DeskResources extends Component {
             <div className="row">
               <div className="col-lg-12 DeskBookTitle">
                 <h4 className="mt-4">Books</h4>
-                <p className="">
-                  can be ordered through{" "}
-                  <u>
-                    <a
-                      href="https://magrudy.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      magrudy.com
-                    </a>
-                  </u>{" "}
-                  bookstore in Dubai
-                </p>
               </div>
               {this.state.getBooks.map((book) => (
                 <div

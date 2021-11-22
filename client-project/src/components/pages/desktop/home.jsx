@@ -35,22 +35,18 @@ class HomeDesk extends Component {
 
         <div className="col-md-4 deskHomePro">
           <div className="proDeskBack">
-            <img
+            {/* <img
               src={require("../../../images/desktop/homeProfile.jpg")}
               alt="Profile"
               className="mx-auto d-block img-fluid img-pro-fluid"
-            />
+            /> */}
             <h2 className="mt-4">ABOUT ME</h2>
             <p>
-              "I have trained with The Four Winds, EKAA, and UK Hypnosis
-              Academy, amongst others. My personal experiences with
-              hypnotherapy, energy healing and other health and healing
-              modalities enabled me to see first hand their power to heal. Allow
-              me to help you explore other choices for your life."
+              The most profound guidance comes from within ourselves. Allow me to help you find your inner voice, so you can better navigate the outer world.
             </p>
-            <p>
+            {/* <p>
               "What you seek is seeking you" <i>- Rumi</i>
-            </p>
+            </p> */}
             <NavLink
               className="btn btn-warning lm-btn mx-auto d-block deskButton"
               to="/aboutme"
@@ -82,6 +78,14 @@ class HomeDesk extends Component {
               <ContactUs homebtn />
             </div>
           </div>
+        </div>
+        <div className="col-md-12">
+          <img
+              src={require("../../../images/imdha_logo.png")}
+              alt="Logo"
+              className="mx-auto d-block img-fluid"
+              style={{ width: '80px', marginTop: '20px' }}
+            />
         </div>
       </React.Fragment>
     );

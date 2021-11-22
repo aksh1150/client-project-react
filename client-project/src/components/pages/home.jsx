@@ -47,14 +47,10 @@ class Home extends Component {
           <i className="hypnocol">- Alberto Villoldo</i>
           <h2 className="mt-4">ABOUT ME</h2>
           <p data-aos="fade-right" data-aos-duration="3000">
-            "I have trained with The Four Winds, EKAA, and UK Hypnosis Academy,
-            amongst others. My personal experiences with hypnotherapy, energy
-            healing and other health and healing modalities enabled me to see
-            first hand their power to heal. Allow me to help you explore other
-            choices for your life."
+            The most profound guidance comes from within ourselves. Allow me to help you find your inner voice, so you can better navigate the outer world.
           </p>
-          <p className="hypnocol mt-4">"What you seek is seeking you"</p>
-          <i className="hypnocol">- Rumi</i>
+          {/* <p className="hypnocol mt-4">"What you seek is seeking you"</p>
+          <i className="hypnocol">- Rumi</i> */}
           <br />
           <br />
           <div className="">
@@ -74,6 +70,14 @@ class Home extends Component {
             the form below":
           </p>
           <ContactUs homebtn />
+        </div>
+        <div className="col-md-12">
+          <img
+              src={require("../../images/imdha_logo.png")}
+              alt="Logo"
+              className="mx-auto d-block img-fluid"
+              style={{ width: '80px', marginTop: '20px' }}
+            />
         </div>
       </div>
     );

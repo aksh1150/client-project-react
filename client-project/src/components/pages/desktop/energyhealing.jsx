@@ -191,9 +191,9 @@ class Deskenergy extends Component {
                 >
                   Sacral
                 </span>
-                <p className="pl-4 pt-3">I am open to all worldly pleasures</p>
+                <p className="pl-4 pt-3">I enjoy my life</p>
               </div>
-              <div className="chak mt-4">
+              <div className="chak mt-4 pt-4">
                 <span
                   className="chakras tsred"
                   data-aos="fade-up"
