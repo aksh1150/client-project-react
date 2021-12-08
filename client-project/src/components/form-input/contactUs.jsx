@@ -61,7 +61,7 @@ class ContactUs extends Component {
     });
     xhr.open(
       "GET",
-      "http://tstsrv.onstore.ca/sendemail/index.php?email=" +
+      "https://dubaihypnotherapist.com/sendemail/index.php?email=" +
         email +
         "&name=" +
         userName +
