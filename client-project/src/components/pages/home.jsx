@@ -49,8 +49,6 @@ class Home extends Component {
         <div className="col homeSecondLayer layerOne learn-more">
           <p
             className="hypnocol mt-4"
-            data-aos="fade-left"
-            data-aos-duration="3000"
           >
             "We come to realise that the universe mirrors back to us perfectly
             our beliefs, our intentions, our sincerity. 'What is' is the product
@@ -59,7 +57,7 @@ class Home extends Component {
           </p>
           <i className="hypnocol">- Alberto Villoldo</i>
           <h2 className="mt-4">ABOUT ME</h2>
-          <p data-aos="fade-right" data-aos-duration="3000">
+          <p>
             The most profound guidance comes from within ourselves. Allow me to help you find your inner voice, so you can better navigate the outer world.
           </p>
           {/* <p className="hypnocol mt-4">"What you seek is seeking you"</p>
@@ -86,7 +84,7 @@ class Home extends Component {
         </div>
         <div className="homeThirdLayer layerOne learn-more">
           <h2 className="mt-2">CONTACT ME</h2>
-          <p className="mb-4" data-aos="fade-up" data-aos-duration="3000">
+          <p className="mb-4">
             "I am happy to answer any questions you might have. Simply fill out
             the form below":
           </p>
