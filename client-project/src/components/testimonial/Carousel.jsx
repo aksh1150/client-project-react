@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { MdArrowForwardIos, MdArrowBackIosNew } from "react-icons/md";
 import './carousel.css'
 
 const Carousel = (props) => {

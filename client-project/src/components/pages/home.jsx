@@ -7,7 +7,7 @@ import Aos from "aos";
 import { FaQuoteLeft } from "react-icons/fa";
 import Testimonials from "../../data/testimonials.json";
 import "aos/dist/aos.css";
-import Carousel from "../testimonial/Carousel"
+import Carousel from 'react-bootstrap/Carousel'
 class Home extends Component {
   componentDidMount() {
     Aos.init();
@@ -30,32 +30,22 @@ class Home extends Component {
           </ShadowBox>
         </LayerOne>
          <div className="col-md-12">
-            <Carousel show={1} infiniteLoop={true}>
-                {Testimonials.map((testimonial, index) => {
+           <Carousel>
+             {Testimonials.map((testimonial, index) => {
                   return (
-                    <div key={testimonial.id}>
-                      <div className="testimontial"
-                        style={{backgroundColor: this.bgColors[index % this.bgColors.length]}}
-                      >
-                        <p className="quoteIcon">
+                    <Carousel.Item>
+                     <div className="testimontial" style={{backgroundColor: this.bgColors[index % this.bgColors.length]}}>
+                      <p className="quoteIcon">
                           <FaQuoteLeft size='1.5em' color={this.bgColors[index % this.bgColors.length]} />
                         </p>
                         {testimonial.testimonial.map(text => <p>{text}</p>)}
                         <p>Yours sincerely, <br /> {testimonial.author}</p>
-                      </div>
                     </div>
-                  )
+                    </Carousel.Item>
+                    )
                 })}
             </Carousel>
           </div>
-        {/* <div className="col homeImg">
-          <img
-            src={require("../../images/homePro.jpg")}
-            alt="logo"
-            className="mx-auto d-block img-fluid"
-            width="100%"
-          />
-        </div> */}
         <div className="col homeSecondLayer layerOne learn-more">
           <p
             className="hypnocol mt-4"
