@@ -26,7 +26,7 @@ class DeskAbout extends Component {
                 className="mx-auto d-block img-fluid img-pro-fluid"
               />
               <div className="blackglass">
-                <p className="mt-4">I am a Clinical Integrated Hypnotherapist and have studied hypnotherapy with organizations in the UK, USA, Australia, and the UAE.</p>
+                <p className="mt-4">I am a Clinical Integrated Hypnotherapist and have studied hypnotherapy with organisations in the UK, USA, Australia, and the UAE.</p>
                 <p className="mt-4">I am also a qualified Shamanic Energy Healer, as well as a Reiki practitioner.</p>
                 <p className="mt-4">Additionally, I have undertaken studies in Cognitive Behaviour Therapy (CBT), Emotional Freedom Technique (EFT), and Simpson Protocol.</p>
               </div>

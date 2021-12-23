@@ -4,13 +4,19 @@ import DeskOverlay from "./deskOverlay";
 import { NavLink } from "react-router-dom";
 import ContactUs from "../../form-input/contactUs";
 import Aos from "aos";
+import { FaQuoteLeft } from "react-icons/fa";
+import Testimonials from "../../../data/testimonials.json";
 import "aos/dist/aos.css";
 import Carousel from "../../testimonial/Carousel"
 
 class HomeDesk extends Component {
+
   componentDidMount() {
     Aos.init();
   }
+
+  bgColors = ["#FFC007", "#A0D3D8", "#D899C6"];
+
   render() {
     return (
       <React.Fragment>
@@ -35,53 +41,23 @@ class HomeDesk extends Component {
         </DeskTopLayerOne>
 
          <div className="col-md-12">
-            <Carousel show={3}>
-                 
-                    <div className="flex-container">
-                     <p className="testimonialbox1 testimontial" >Recently I was fortunate enough to have some healing sessions with Nicky to help me with my phobia of the dentist. I had to have 2 teeth extracted but since childhood I have had a deep-seated fear/terror of the dentist and Nicky offered to work with me in the week leading up to my appointment to help me to overcome these fears.
-
-                       We had 2 healing sessions which involved hypnotherapy and EFT tapping. The sessions were amazing and after the first session of EFT with Nicky, which was very emotional due to some very bad dental experiences as a child, I felt much calmer and positive about my upcoming dental treatment. After the second session, which mainly involved hypnotherapy, I felt even more relaxed about my visit to the dentist. I was able to sleep well the night before my appointment and I was even able to eat breakfast on the morning of my extractions.
-
-                       I am very grateful that I had the opportunity for Nicky to share her gift of healing with me. I believe that she has a natural talent for healing and she is very intuitive.
-
-                       I highly recommend Nicky and I hope that she has the opportunity to share her gift of healing with anyone who is in need of healing in any way.
-
-                       Yours sincerely,
-                       Veronica
-                     </p>
-                     </div>
-              
-                    <div>
-                    <p className="testimonialbox2 testimontial" > Recently I was fortunate enough to have some healing sessions with Nicky to help me with my phobia of the dentist. I had to have 2 teeth extracted but since childhood I have had a deep-seated fear/terror of the dentist and Nicky offered to work with me in the week leading up to my appointment to help me to overcome these fears.
-
-                       We had 2 healing sessions which involved hypnotherapy and EFT tapping. The sessions were amazing and after the first session of EFT with Nicky, which was very emotional due to some very bad dental experiences as a child, I felt much calmer and positive about my upcoming dental treatment. After the second session, which mainly involved hypnotherapy, I felt even more relaxed about my visit to the dentist. I was able to sleep well the night before my appointment and I was even able to eat breakfast on the morning of my extractions.
-
-                       I am very grateful that I had the opportunity for Nicky to share her gift of healing with me. I believe that she has a natural talent for healing and she is very intuitive.
-
-                       I highly recommend Nicky and I hope that she has the opportunity to share her gift of healing with anyone who is in need of healing in any way.
-
-                       Yours sincerely,
-                       Veronica</p>
+            <Carousel show={3} infiniteLoop={true}>
+                {Testimonials.map((testimonial, index) => {
+                  return (
+                    <div className="flex-container" key={testimonial.id}>
+                      <div className="testimonialbox1 testimontial"
+                        style={{backgroundColor: this.bgColors[index % this.bgColors.length]}}
+                      >
+                        <p className="quoteIcon">
+                          <FaQuoteLeft size='1.5em' color={this.bgColors[index % this.bgColors.length]} />
+                        </p>
+                        {testimonial.testimonial.map(text => <p>{text}</p>)}
+                        <p>Yours sincerely, <br /> {testimonial.author}</p>
                       </div>
-                     
-
-                     <div>
-                     <p className="testimonialbox3 testimontial" >Recently I was fortunate enough to have some healing sessions with Nicky to help me with my phobia of the dentist. I had to have 2 teeth extracted but since childhood I have had a deep-seated fear/terror of the dentist and Nicky offered to work with me in the week leading up to my appointment to help me to overcome these fears.
-
-                       We had 2 healing sessions which involved hypnotherapy and EFT tapping. The sessions were amazing and after the first session of EFT with Nicky, which was very emotional due to some very bad dental experiences as a child, I felt much calmer and positive about my upcoming dental treatment. After the second session, which mainly involved hypnotherapy, I felt even more relaxed about my visit to the dentist. I was able to sleep well the night before my appointment and I was even able to eat breakfast on the morning of my extractions.
-
-                       I am very grateful that I had the opportunity for Nicky to share her gift of healing with me. I believe that she has a natural talent for healing and she is very intuitive.
-
-                       I highly recommend Nicky and I hope that she has the opportunity to share her gift of healing with anyone who is in need of healing in any way.
-
-                       Yours sincerely,
-                       Veronica 
-                       </p>
-                     
-                  </div>
-                 
+                    </div>
+                  )
+                })}
             </Carousel>
-
           </div>
 
 
@@ -107,9 +83,19 @@ class HomeDesk extends Component {
             >
               Learn more about me
             </NavLink>
+             <div className="col-md-12 mt-5">
+              <img
+                  src={require("../../../images/3.png")}
+                  alt="Logo"
+                  className="mx-auto d-block img-fluid"
+                  style={{ width: '220px', marginTop: '20px' }}
+                />
+            </div>
+           
           </div>
         </div>
         <div className="col-md-8 deskHomeForm">
+          
           <div className="homeFromBack">
             <p>
               "We come to realise that the universe mirrors back to us perfectly
@@ -131,14 +117,6 @@ class HomeDesk extends Component {
               <ContactUs homebtn />
             </div>
           </div>
-        </div>
-        <div className="col-md-12">
-          <img
-              src={require("../../../images/imdha_logo.png")}
-              alt="Logo"
-              className="mx-auto d-block img-fluid"
-              style={{ width: '80px', marginTop: '20px' }}
-            />
         </div>
       </React.Fragment>
     );

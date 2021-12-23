@@ -4,11 +4,15 @@ import LayerOne from "../layerone";
 import { NavLink } from "react-router-dom";
 import ContactUs from "../form-input/contactUs";
 import Aos from "aos";
+import { FaQuoteLeft } from "react-icons/fa";
+import Testimonials from "../../data/testimonials.json";
 import "aos/dist/aos.css";
+import Carousel from "../testimonial/Carousel"
 class Home extends Component {
   componentDidMount() {
     Aos.init();
   }
+  bgColors = ["#FFC007", "#A0D3D8", "#D899C6"];
   render() {
     return (
       <div className="container-fluid">
@@ -25,14 +29,33 @@ class Home extends Component {
             <p>curious to learn more about the unique meaning of your life?</p>
           </ShadowBox>
         </LayerOne>
-        <div className="col homeImg">
+         <div className="col-md-12">
+            <Carousel show={1} infiniteLoop={true}>
+                {Testimonials.map((testimonial, index) => {
+                  return (
+                    <div key={testimonial.id}>
+                      <div className="testimontial"
+                        style={{backgroundColor: this.bgColors[index % this.bgColors.length]}}
+                      >
+                        <p className="quoteIcon">
+                          <FaQuoteLeft size='1.5em' color={this.bgColors[index % this.bgColors.length]} />
+                        </p>
+                        {testimonial.testimonial.map(text => <p>{text}</p>)}
+                        <p>Yours sincerely, <br /> {testimonial.author}</p>
+                      </div>
+                    </div>
+                  )
+                })}
+            </Carousel>
+          </div>
+        {/* <div className="col homeImg">
           <img
             src={require("../../images/homePro.jpg")}
             alt="logo"
             className="mx-auto d-block img-fluid"
             width="100%"
           />
-        </div>
+        </div> */}
         <div className="col homeSecondLayer layerOne learn-more">
           <p
             className="hypnocol mt-4"
@@ -62,6 +85,14 @@ class Home extends Component {
               Learn more about me
             </NavLink>
           </div>
+           <div className="col-md-12 mt-5 pb-5">
+            <img
+                src={require("../../images/3.png")}
+                alt="Logo"
+                className="mx-auto d-block img-fluid"
+                style={{ width: '220px', marginTop: '20px' }}
+              />
+          </div>
         </div>
         <div className="homeThirdLayer layerOne learn-more">
           <h2 className="mt-2">CONTACT ME</h2>
@@ -70,14 +101,6 @@ class Home extends Component {
             the form below":
           </p>
           <ContactUs homebtn />
-        </div>
-        <div className="col-md-12">
-          <img
-              src={require("../../images/imdha_logo.png")}
-              alt="Logo"
-              className="mx-auto d-block img-fluid"
-              style={{ width: '80px', marginTop: '20px' }}
-            />
         </div>
       </div>
     );

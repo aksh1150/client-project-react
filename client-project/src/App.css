@@ -506,7 +506,7 @@ hr {
 }
 
 .deskHomePro {
-  padding: 6px 3px 0 0 !important;
+  padding: 0 3px 0 0 !important;
 }
 .proDeskBack {
   background-image: linear-gradient(
@@ -931,29 +931,53 @@ select::-ms-expand {
 
 .flex-container{
     display: flex;
-   
+   justify-content: center;
 
 }
 .testimontial {
   color: white;
-  padding: 40px;
-     
-      width: 470px;
-      height: 600px;
-    
-     margin-top: 30px;
-     margin-bottom: 30px;
-     overflow-y: scroll;
-}
-.testimonialbox1{
-      background-color:#FFC007;
-}
-
-
-.testimonialbox2{
-   background-color:#A0D3D8;
+  padding: 40px; 
+  width: 470px;
+  height: 600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  overflow-y: scroll;
+  /* background-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 1) 5%,
+    var(--deskgradiant-color) 15%
+  ); */
 }
 
-.testimonialbox3{
-   background-color:#D899C6;
+/* .testimontial:hover {
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 1) 5%,
+    var(--deskgradiant-color) 5%
+  );
+} */
+
+.quoteIcon {
+  height: 65px;
+  width: 65px;
+  border-radius: 34px;
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 13px 15px 13px 16px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .quoteIcon {
+    height: 55px;
+    width: 55px;
+    padding: 13px 10px 13px 14px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+.testimontial {
+    width: 100%;
+  }
+  .left-arrow, .right-arrow {
+        display: none;
+  }
 }
