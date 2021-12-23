@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import ContactUs from "../../form-input/contactUs";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Carousel from "../../testimonial/Carousel"
 
 class HomeDesk extends Component {
   componentDidMount() {
@@ -32,6 +33,58 @@ class HomeDesk extends Component {
             </div>
           </div>
         </DeskTopLayerOne>
+
+         <div className="col-md-12">
+            <Carousel show={3}>
+                 
+                    <div className="flex-container">
+                     <p className="testimonialbox1 testimontial" >Recently I was fortunate enough to have some healing sessions with Nicky to help me with my phobia of the dentist. I had to have 2 teeth extracted but since childhood I have had a deep-seated fear/terror of the dentist and Nicky offered to work with me in the week leading up to my appointment to help me to overcome these fears.
+
+                       We had 2 healing sessions which involved hypnotherapy and EFT tapping. The sessions were amazing and after the first session of EFT with Nicky, which was very emotional due to some very bad dental experiences as a child, I felt much calmer and positive about my upcoming dental treatment. After the second session, which mainly involved hypnotherapy, I felt even more relaxed about my visit to the dentist. I was able to sleep well the night before my appointment and I was even able to eat breakfast on the morning of my extractions.
+
+                       I am very grateful that I had the opportunity for Nicky to share her gift of healing with me. I believe that she has a natural talent for healing and she is very intuitive.
+
+                       I highly recommend Nicky and I hope that she has the opportunity to share her gift of healing with anyone who is in need of healing in any way.
+
+                       Yours sincerely,
+                       Veronica
+                     </p>
+                     </div>
+              
+                    <div>
+                    <p className="testimonialbox2 testimontial" > Recently I was fortunate enough to have some healing sessions with Nicky to help me with my phobia of the dentist. I had to have 2 teeth extracted but since childhood I have had a deep-seated fear/terror of the dentist and Nicky offered to work with me in the week leading up to my appointment to help me to overcome these fears.
+
+                       We had 2 healing sessions which involved hypnotherapy and EFT tapping. The sessions were amazing and after the first session of EFT with Nicky, which was very emotional due to some very bad dental experiences as a child, I felt much calmer and positive about my upcoming dental treatment. After the second session, which mainly involved hypnotherapy, I felt even more relaxed about my visit to the dentist. I was able to sleep well the night before my appointment and I was even able to eat breakfast on the morning of my extractions.
+
+                       I am very grateful that I had the opportunity for Nicky to share her gift of healing with me. I believe that she has a natural talent for healing and she is very intuitive.
+
+                       I highly recommend Nicky and I hope that she has the opportunity to share her gift of healing with anyone who is in need of healing in any way.
+
+                       Yours sincerely,
+                       Veronica</p>
+                      </div>
+                     
+
+                     <div>
+                     <p className="testimonialbox3 testimontial" >Recently I was fortunate enough to have some healing sessions with Nicky to help me with my phobia of the dentist. I had to have 2 teeth extracted but since childhood I have had a deep-seated fear/terror of the dentist and Nicky offered to work with me in the week leading up to my appointment to help me to overcome these fears.
+
+                       We had 2 healing sessions which involved hypnotherapy and EFT tapping. The sessions were amazing and after the first session of EFT with Nicky, which was very emotional due to some very bad dental experiences as a child, I felt much calmer and positive about my upcoming dental treatment. After the second session, which mainly involved hypnotherapy, I felt even more relaxed about my visit to the dentist. I was able to sleep well the night before my appointment and I was even able to eat breakfast on the morning of my extractions.
+
+                       I am very grateful that I had the opportunity for Nicky to share her gift of healing with me. I believe that she has a natural talent for healing and she is very intuitive.
+
+                       I highly recommend Nicky and I hope that she has the opportunity to share her gift of healing with anyone who is in need of healing in any way.
+
+                       Yours sincerely,
+                       Veronica 
+                       </p>
+                     
+                  </div>
+                 
+            </Carousel>
+
+          </div>
+
+
 
         <div className="col-md-4 deskHomePro">
           <div className="proDeskBack">

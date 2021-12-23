@@ -115,7 +115,6 @@ class ContactUs extends Component {
     } = this.state;
     return (
       <div className="col-12 contactForm">
-        {emailstatus ? emailstatus : null}
 
         <form onSubmit={this.handleSubmit}>
           <div className="row">
@@ -208,6 +207,7 @@ class ContactUs extends Component {
                 />
                 {this.state.isLoading ? "Loading..." : "Send"}
               </button>
+              {emailstatus ? emailstatus : null}
             </div>
           </div>
         </form>
