@@ -40,7 +40,7 @@ class Hypnotherapy extends Component {
               <p>Stammering</p>
 
               <p>Stress</p>
-              <p>Weight Loss</p>
+              <p>Weight Release</p>
             </div>
           </ShadowBox>
         </LayerOne>
