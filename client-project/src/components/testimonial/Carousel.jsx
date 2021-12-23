@@ -100,9 +100,9 @@ const Carousel = (props) => {
                 {/* You can alwas change the content of the button to other things */}
                 {
                     (isRepeating || currentIndex > 0) &&
-                    <button onClick={prev} className="left-arrow">
-                        <MdArrowBackIosNew size='3em' />
-                    </button>
+                    <a onClick={prev} className="left-arrow">
+                        &#10094;
+                    </a>
                 }
                 <div
                     className="carousel-content-wrapper"
@@ -131,9 +131,9 @@ const Carousel = (props) => {
                 {/* You can alwas change the content of the button to other things */}
                 {
                     (isRepeating || currentIndex < (length - show)) &&
-                    <button onClick={next} className="right-arrow">
-                       <MdArrowForwardIos size='3em' />
-                    </button>
+                    <a onClick={next} className="right-arrow">
+                        &#10095;
+                    </a>
                 }
             </div>
         </div>
