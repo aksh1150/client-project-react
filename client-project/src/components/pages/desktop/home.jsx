@@ -48,7 +48,7 @@ class HomeDesk extends Component {
                       <div className="testimontial" style={{background: `rgb(${this.bgColors[index % this.bgColors.length]})`}}>
                       <div className="testimonialbox1">
                         <p className="quoteIcon">
-                          <FaQuoteLeft size='1.5em' color={this.bgColors[index % this.bgColors.length]} />
+                          <FaQuoteLeft size='1.5em' color={`rgb(${this.bgColors[index % this.bgColors.length]})`} />
                         </p>
                         {testimonial.testimonial.map(text => <p>{text}</p>)}
                         <p>Yours sincerely, <br /> {testimonial.author}</p>
