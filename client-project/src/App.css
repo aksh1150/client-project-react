@@ -971,8 +971,7 @@ select::-ms-expand {
   height: 65px;
   width: 65px;
   border-radius: 34px;
-  background-color: rgb(0, 0, 0);
-  opacity: 80%;
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 13px 15px 13px 16px;
 }
 
