@@ -71,6 +71,7 @@ h5 {
 .homeBoxClass {
   background-color: rgba(var(--home-page-rgb), 0.8);
   padding: 20px;
+  margin-top: 20px;
 }
 .hypnoBox {
   background-color: rgba(var(--hypno-page-rgb), 0.8);
@@ -987,7 +988,7 @@ select::-ms-expand {
 .testimontial {
     width: 100%;
   }
-  .left-arrow, .right-arrow {
+  /* .left-arrow, .right-arrow {
         display: none;
-  }
+  } */
 }

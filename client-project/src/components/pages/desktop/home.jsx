@@ -41,7 +41,7 @@ class HomeDesk extends Component {
         </DeskTopLayerOne>
 
          <div className="col-md-12">
-            <Carousel show={3} infiniteLoop={true}>
+            <Carousel show={3}>
                 {Testimonials.map((testimonial, index) => {
                   return (
                     <div className="flex-container" key={testimonial.id}>

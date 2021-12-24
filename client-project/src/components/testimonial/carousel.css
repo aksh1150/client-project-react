@@ -64,7 +64,8 @@
 
 @media (hover: none) and (pointer: coarse) {
     .left-arrow, .right-arrow {
-        display: none;
+        /* display: none; */
+         font-size: 60px;
     }
 }
 

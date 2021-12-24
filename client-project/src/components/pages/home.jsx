@@ -30,7 +30,7 @@ class Home extends Component {
           </ShadowBox>
         </LayerOne>
          <div className="col-md-12">
-           <Carousel show={1} infiniteLoop={true}>
+           <Carousel show={1}>
                 {Testimonials.map((testimonial, index) => {
                   return (
                     <div className="flex-container" key={testimonial.id}>
