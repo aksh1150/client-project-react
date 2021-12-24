@@ -15,7 +15,7 @@ class HomeDesk extends Component {
     Aos.init();
   }
 
-  bgColors = ["#FFC007", "#A0D3D8", "#D899C6"];
+  bgColors = ["255, 192, 7", "160, 211, 216", "216, 153, 198"];
 
   render() {
     return (
@@ -45,15 +45,15 @@ class HomeDesk extends Component {
                 {Testimonials.map((testimonial, index) => {
                   return (
                     <div className="flex-container" key={testimonial.id}>
-                      <div className="testimonialbox1 testimontial"
-                        style={{backgroundColor: this.bgColors[index % this.bgColors.length]}}
-                      >
+                      <div className="testimontial" style={{background: `rgb(${this.bgColors[index % this.bgColors.length]})`}}>
+                      <div className="testimonialbox1">
                         <p className="quoteIcon">
                           <FaQuoteLeft size='1.5em' color={this.bgColors[index % this.bgColors.length]} />
                         </p>
                         {testimonial.testimonial.map(text => <p>{text}</p>)}
                         <p>Yours sincerely, <br /> {testimonial.author}</p>
                       </div>
+                    </div>
                     </div>
                   )
                 })}
