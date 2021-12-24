@@ -6,9 +6,6 @@ const SELECT_DATA = [
     value: "Other search engine",
   },
   {
-    value: "thefourwinds.com",
-  },
-  {
     value: "Referral",
   },
   {
