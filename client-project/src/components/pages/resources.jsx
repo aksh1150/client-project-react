@@ -105,15 +105,6 @@ class Resources extends Component {
               </p>
               <p>
                 <a
-                  href="http://essentiawellbeing.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Essentia Wellbeing Center
-                </a>
-              </p>
-              <p>
-                <a
                   href="https://globalhealing.com/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -137,15 +128,6 @@ class Resources extends Component {
                   rel="noopener noreferrer"
                 >
                   HeartMath Institute
-                </a>
-              </p>
-              <p>
-                <a
-                  href="https://illuminations.ae/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Illuminations Wellbeing Center
                 </a>
               </p>
               <p>
