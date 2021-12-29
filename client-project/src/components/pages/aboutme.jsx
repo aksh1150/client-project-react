@@ -14,7 +14,13 @@ class AboutMe extends Component {
           <i className="hypnocol">- Eckhart Tolle</i>
         </LayerOne>
         <div className="layerOnes">
-          <p className="abotTxtCol mt-2">
+          <p className="mt-3">I am a Clinical Integrated Hypnotherapist and have studied hypnotherapy with organisations in the UK, USA, Australia, and the UAE.</p>
+            <p className="mt-3">I am also a qualified Shamanic Energy Healer, as well as a Reiki practitioner.</p>
+            <p className="mt-3">Additionally, I have undertaken studies in Cognitive Behaviour Therapy (CBT), Emotional Freedom Technique (EFT), and Simpson Protocol.</p>
+        </div>
+        <div className="aboutContact">
+          <div className="blackglass">
+            <p className="abotTxtCol mt-2">
             Hi, and thanks for visiting my website. I am from Australia, but I
             have spent most of my adult life living in other countries. Dubai
             has been my home since 2011.
@@ -55,12 +61,8 @@ class AboutMe extends Component {
             intimately. I welcome the opportunity to work alongside you to
             explore new possibilities of a meaningful life.
           </p>
-        </div>
-        <div className="aboutContact">
-          <div className="blackglass">
-            <p className="mt-3">I am a Clinical Integrated Hypnotherapist and have studied hypnotherapy with organisations in the UK, USA, Australia, and the UAE.</p>
-            <p className="mt-3">I am also a qualified Shamanic Energy Healer, as well as a Reiki practitioner.</p>
-            <p className="mt-3">Additionally, I have undertaken studies in Cognitive Behaviour Therapy (CBT), Emotional Freedom Technique (EFT), and Simpson Protocol.</p>
+
+            
           </div>
           <p className="hypnocol aboutForm p-4">
             "I am happy to answer any questions you might have. Simply fill out
