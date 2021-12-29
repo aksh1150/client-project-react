@@ -14,18 +14,18 @@ class AboutMe extends Component {
           <i className="hypnocol">- Eckhart Tolle</i>
         </LayerOne>
         <div className="layerOnes">
-          <p className="mt-3">I am a Clinical Integrated Hypnotherapist and have studied hypnotherapy with organisations in the UK, USA, Australia, and the UAE.</p>
-            <p className="mt-3">I am also a qualified Shamanic Energy Healer, as well as a Reiki practitioner.</p>
-            <p className="mt-3">Additionally, I have undertaken studies in Cognitive Behaviour Therapy (CBT), Emotional Freedom Technique (EFT), and Simpson Protocol.</p>
+          <p className="mt-3 abotTxtCol">I am a Clinical Integrated Hypnotherapist and have studied hypnotherapy with organisations in the UK, USA, Australia, and the UAE.</p>
+            <p className="mt-3 abotTxtCol">I am also a qualified Shamanic Energy Healer, as well as a Reiki practitioner.</p>
+            <p className="mt-3 abotTxtCol">Additionally, I have undertaken studies in Cognitive Behaviour Therapy (CBT), Emotional Freedom Technique (EFT), and Simpson Protocol.</p>
         </div>
         <div className="aboutContact">
           <div className="blackglass">
-            <p className="abotTxtCol mt-2">
+            <p className="mt-3">
             Hi, and thanks for visiting my website. I am from Australia, but I
             have spent most of my adult life living in other countries. Dubai
             has been my home since 2011.
           </p>
-          <p className="abotTxtCol">
+          <p className="mt-3">
             I have always been a sensitive and intuitive soul, but for most of
             my life, I explored other aspects of myself. I was a court reporter
             for over 25 years. This gave me the opportunity to live in various
@@ -34,7 +34,7 @@ class AboutMe extends Component {
             take me elsewhere and wanted me to explore other aspects of my
             being.
           </p>
-          <p className="abotTxtCol">
+          <p className="mt-3">
             So I began my journey in my mid-40s to see what else life had to
             offer me. It wasn't until I had a profound awakening and healing
             experience through hypnosis that I finally felt able to begin the
@@ -43,20 +43,20 @@ class AboutMe extends Component {
             life has brought about many uplifting changes in my thinking and
             life experience.
           </p>
-          <p className="abotTxtCol">
+          <p className="mt-3">
             I welcome the opportunity to work with a variety of people and
             assist them on their healing journey. My experience was one of "I'm
             not sure why I feel like this and how to change my thinking
             patterns, but I know I need some guidance and assistance to help me
             on my journey."
           </p>
-          <p className="abotTxtCol">
+          <p className="mt-3">
             The most profound guidance comes from within ourselves. Allow me to
             help you find your inner voice, so you can better navigate the outer
             world. The techniques I have learnt are about helping you to feel
             empowered, so you can recognise and listen to your intuition.
           </p>
-          <p className="abotTxtCol">
+          <p className="mt-3">
             If you are looking to make profound changes, I know this experience
             intimately. I welcome the opportunity to work alongside you to
             explore new possibilities of a meaningful life.
