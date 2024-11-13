@@ -26,9 +26,36 @@ class DeskAbout extends Component {
                 className="mx-auto d-block img-fluid img-pro-fluid"
               />
               <div className="blackglass">
-                <p className="mt-4">I am a Clinical Integrated Hypnotherapist and have studied hypnotherapy with organisations in the UK, USA, Australia, and the UAE.</p>
-                <p className="mt-4">I am also a qualified Shamanic Energy Healer, as well as a Reiki practitioner.</p>
-                <p className="mt-4">Additionally, I have undertaken studies in Cognitive Behaviour Therapy (CBT), Emotional Freedom Technique (EFT), and Simpson Protocol.</p>
+                <p className="mt-4">
+                  I am a Clinical Integrated Hypnotherapist and have studied
+                  hypnotherapy with organisations in the UK, USA, Australia, and
+                  the UAE.
+                </p>
+                <p className="mt-4">
+                  I am also a qualified Shamanic Energy Healer, as well as a
+                  Reiki practitioner.
+                </p>
+                <p className="mt-4">
+                  Additionally, I have undertaken studies in Cognitive Behaviour
+                  Therapy (CBT), Emotional Freedom Technique (EFT), and Simpson
+                  Protocol.
+                </p>
+              </div>
+              <div className="col-md-12  pb-5 d-flex justify-content-center align-items-center">
+                <a
+                  href="https://www.mysticmag.com/psychic-reading/interview-nickymisso/"
+                  target="_blank"
+                >
+                  <img
+                    src={require("../../../images/MMreadHere.jpeg")}
+                    alt="Logo"
+                    className="img-fluid"
+                    style={{
+                      width: "300px",
+                      marginTop: "20px",
+                    }}
+                  />
+                </a>
               </div>
             </div>
             <div className="col-md-8 DeskAboutBack">

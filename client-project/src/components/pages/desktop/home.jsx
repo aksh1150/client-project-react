@@ -7,10 +7,9 @@ import Aos from "aos";
 import { FaQuoteLeft } from "react-icons/fa";
 import Testimonials from "../../../data/testimonials.json";
 import "aos/dist/aos.css";
-import Carousel from "../../testimonial/Carousel"
+import Carousel from "../../testimonial/Carousel";
 
 class HomeDesk extends Component {
-
   componentDidMount() {
     Aos.init();
   }
@@ -40,27 +39,38 @@ class HomeDesk extends Component {
           </div>
         </DeskTopLayerOne>
 
-         <div className="col-md-12">
-            <Carousel show={3} infiniteLoop={true}>
-                {Testimonials.map((testimonial, index) => {
-                  return (
-                    <div className="flex-container" key={testimonial.id}>
-                      <div className="testimonialbox1 testimontial"
-                        style={{backgroundColor: this.bgColors[index % this.bgColors.length]}}
-                      >
-                        <p className="quoteIcon">
-                          <FaQuoteLeft size='1.5em' color={this.bgColors[index % this.bgColors.length]} />
-                        </p>
-                        {testimonial.testimonial.map(text => <p>{text}</p>)}
-                        <p>Yours sincerely, <br /> {testimonial.author}</p>
-                      </div>
+        <div className="col-md-12">
+          <Carousel show={3} infiniteLoop={false}>
+            {Testimonials.map((testimonial, index) => {
+              return (
+                <div className="flex-container" key={testimonial.id}>
+                  <div
+                    className="testimontial"
+                    style={{
+                      backgroundColor:
+                        this.bgColors[index % this.bgColors.length],
+                    }}
+                  >
+                    <div className="testimonialbox1">
+                      <p className="quoteIcon">
+                        <FaQuoteLeft
+                          size="1.5em"
+                          color={this.bgColors[index % this.bgColors.length]}
+                        />
+                      </p>
+                      {testimonial.testimonial.map((text) => (
+                        <p>{text}</p>
+                      ))}
+                      <p>
+                        Yours sincerely, <br /> {testimonial.author}
+                      </p>
                     </div>
-                  )
-                })}
-            </Carousel>
-          </div>
-
-
+                  </div>
+                </div>
+              );
+            })}
+          </Carousel>
+        </div>
 
         <div className="col-md-4 deskHomePro">
           <div className="proDeskBack">
@@ -71,7 +81,9 @@ class HomeDesk extends Component {
             /> */}
             <h2 className="mt-4">ABOUT ME</h2>
             <p>
-              The most profound guidance comes from within ourselves. Allow me to help you find your inner voice, so you can better navigate the outer world.
+              The most profound guidance comes from within ourselves. Allow me
+              to help you find your inner voice, so you can better navigate the
+              outer world.
             </p>
             {/* <p>
               "What you seek is seeking you" <i>- Rumi</i>
@@ -83,19 +95,27 @@ class HomeDesk extends Component {
             >
               Learn more about me
             </NavLink>
-             <div className="col-md-12 mt-5">
+            <div className="col-md-12 mt-5 d-flex justify-content-center align-items-center">
               <img
-                  src={require("../../../images/3.png")}
-                  alt="Logo"
-                  className="mx-auto d-block img-fluid"
-                  style={{ width: '220px', marginTop: '20px' }}
-                />
+                src={require("../../../images/MysticMag.png")}
+                alt="Logo"
+                className="img-fluid"
+                style={{
+                  width: "101px",
+                  marginTop: "20px",
+                  marginRight: "12px",
+                }}
+              />
+              <img
+                src={require("../../../images/3.png")}
+                alt="Logo"
+                className="img-fluid"
+                style={{ width: "220px", marginTop: "20px" }}
+              />
             </div>
-           
           </div>
         </div>
         <div className="col-md-8 deskHomeForm">
-          
           <div className="homeFromBack">
             <p>
               "We come to realise that the universe mirrors back to us perfectly
