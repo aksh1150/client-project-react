@@ -101,16 +101,21 @@ class Home extends Component {
             </NavLink>
           </div>
           <div className="col-md-12 mt-5 pb-5 d-flex justify-content-center align-items-center">
-            <img
-              src={require("../../images/MysticMag.png")}
-              alt="Logo"
-              className="img-fluid"
-              style={{
-                width: "101px",
-                marginTop: "20px",
-                marginRight: "12px",
-              }}
-            />
+            <a
+              href="https://www.mysticmag.com/psychic-reading/interview-nickymisso/"
+              target="_blank"
+            >
+              <img
+                src={require("../../images/MysticMag.png")}
+                alt="Logo"
+                className="img-fluid"
+                style={{
+                  width: "101px",
+                  marginTop: "20px",
+                  marginRight: "12px",
+                }}
+              />
+            </a>
             <img
               src={require("../../images/3.png")}
               alt="Logo"
